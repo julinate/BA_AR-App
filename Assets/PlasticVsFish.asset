@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: PlasticVsFish
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5483203113124371786
+  m_GuidHigh: 8615469823388711343
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5239084785067546616
+      m_GuidHigh: 16212656013798876569
+    m_SerializedTextureGuid:
+      m_GuidLow: 8486043899800591423
+      m_GuidHigh: 17619684710322740411
+    m_Size: {x: 0.128, y: 0.21008605}
+    m_SpecifySize: 1
+    m_Name: PlasticVsFish
+    m_Texture: {fileID: 0}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: PlasticHealthRisc
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5438658310635450701
+  m_GuidHigh: 12682945033962839215
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5667513893401994573
+      m_GuidHigh: 10839644579135513269
+    m_SerializedTextureGuid:
+      m_GuidLow: 18218419172883919411
+      m_GuidHigh: 16680300848099108569
+    m_Size: {x: 0.21, y: 0.14897025}
+    m_SpecifySize: 1
+    m_Name: BA_Buch_WenigerIstMeer_Teller_201024
+    m_Texture: {fileID: 2800000, guid: 60e97233d3b6fcd4d92698cd3e557ce7, type: 3}
