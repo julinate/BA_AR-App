@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: cd374b2ea5dbd9d4b91b97bf55095d7e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Faune
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: aef36881b2986084e8f3a127ec200b67, type: 3}
+  - {fileID: 12800000, guid: b85739d8f7540684e9804020cde46d83, type: 3}
+  - {fileID: 12800000, guid: 2766763d22a82aa469d720158ca60f3f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
