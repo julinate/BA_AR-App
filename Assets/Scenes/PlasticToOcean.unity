@@ -1199,7 +1199,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43a2f49cd20a8c84c85fb5888c266811, type: 2}
+  - {fileID: 2100000, guid: 8e04d1cd22869484789d1c8cbe596a81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1957,7 +1957,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43a2f49cd20a8c84c85fb5888c266811, type: 2}
+  - {fileID: 2100000, guid: 8e04d1cd22869484789d1c8cbe596a81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2098,7 +2098,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43a2f49cd20a8c84c85fb5888c266811, type: 2}
+  - {fileID: 2100000, guid: 8e04d1cd22869484789d1c8cbe596a81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2386,7 +2386,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43a2f49cd20a8c84c85fb5888c266811, type: 2}
+  - {fileID: 2100000, guid: 8e04d1cd22869484789d1c8cbe596a81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2444,7 +2444,7 @@ Transform:
   m_GameObject: {fileID: 1114040580}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 7, z: 0}
-  m_LocalScale: {x: 10, y: 6, z: 1}
+  m_LocalScale: {x: 9, y: 5, z: 1}
   m_Children:
   - {fileID: 40919615}
   m_Father: {fileID: 165585584}
@@ -2483,7 +2483,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43a2f49cd20a8c84c85fb5888c266811, type: 2}
+  - {fileID: 2100000, guid: 8e04d1cd22869484789d1c8cbe596a81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4639,7 +4639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab0e80cee9cc1d44928bfe488dd1e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PointCloudPrefab: {fileID: 4948219155850578905, guid: 61cf1d9d058eb2e478349877a52ad0b8, type: 3}
+  m_PointCloudPrefab: {fileID: 7569271879793463103, guid: 61cf1d9d058eb2e478349877a52ad0b8, type: 3}
 --- !u!114 &2146380309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4652,7 +4652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 5830222029778968711, guid: b9d8d6a13d569a14b8a38a59f7938895, type: 3}
+  m_PlanePrefab: {fileID: 1585201990951412, guid: 89cf8b3766e1b664eb648beb90a97032, type: 3}
   m_DetectionMode: 1
 --- !u!1 &1000011274397007
 GameObject:
