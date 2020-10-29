@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 5667513893401994573
       m_GuidHigh: 10839644579135513269
     m_SerializedTextureGuid:
-      m_GuidLow: 9494852721822803772
-      m_GuidHigh: 7225177149088948874
+      m_GuidLow: 4887601157914450704
+      m_GuidHigh: 16751093964432012968
     m_Size: {x: 0.14, y: 0.14}
     m_SpecifySize: 1
     m_Name: BA_Buch_WenigerIstMeer_Teller_201024
-    m_Texture: {fileID: 2800000, guid: 9ee6273c7e3e83c48a62b72256fc4464, type: 3}
+    m_Texture: {fileID: 0}
