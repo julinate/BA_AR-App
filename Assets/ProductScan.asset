@@ -16,22 +16,72 @@ MonoBehaviour:
   m_GuidHigh: 1919229426926003103
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4791569275952843358
-      m_GuidHigh: 12960352713392064686
-    m_SerializedTextureGuid:
-      m_GuidLow: 2942247094131898722
-      m_GuidHigh: 2218467206656179560
-    m_Size: {x: 0.11685, y: 0.106942065}
-    m_SpecifySize: 1
-    m_Name: Wattestaebchen
-    m_Texture: {fileID: 2800000, guid: b7283962f62428d4683d98a62b94c91e, type: 3}
-  - m_SerializedGuid:
       m_GuidLow: 5526339368438693368
       m_GuidHigh: 1425733675640540851
     m_SerializedTextureGuid:
-      m_GuidLow: 4239216454872687718
-      m_GuidHigh: 10740745034805977178
-    m_Size: {x: 0.15, y: 0.1550057}
+      m_GuidLow: 3527673858211748515
+      m_GuidHigh: 12361194780520918698
+    m_Size: {x: 0.17, y: 0.1583688}
     m_SpecifySize: 1
-    m_Name: Kugelschreiber
-    m_Texture: {fileID: 0}
+    m_Name: Besteck_Messer
+    m_Texture: {fileID: 2800000, guid: 02249aa3d0af30f4aaae5c1429c98bab, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5043866867128149654
+      m_GuidHigh: 1226629759956415141
+    m_SerializedTextureGuid:
+      m_GuidLow: 16353974222297437670
+      m_GuidHigh: 4521409330155463530
+    m_Size: {x: 0.17, y: 0.15975478}
+    m_SpecifySize: 1
+    m_Name: Besteck_Gabel
+    m_Texture: {fileID: 2800000, guid: 79ef15e6fce8e2f46aa30d90d445bf3e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5756340352455494178
+      m_GuidHigh: 12514305506024851885
+    m_SerializedTextureGuid:
+      m_GuidLow: 10359622294657978548
+      m_GuidHigh: 16174979566113456137
+    m_Size: {x: 0.17, y: 0.16083118}
+    m_SpecifySize: 1
+    m_Name: Trinkhalm
+    m_Texture: {fileID: 2800000, guid: e04e50b4c5968fc409006577371279e0, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5682217133982379028
+      m_GuidHigh: 2067157909675248011
+    m_SerializedTextureGuid:
+      m_GuidLow: 14651457122857614588
+      m_GuidHigh: 7771145038681272361
+    m_Size: {x: 0.17, y: 0.15735082}
+    m_SpecifySize: 1
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 2800000, guid: 61cb7cfc6ea0cb5429f0a2483da7d86b, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5470189696185535170
+      m_GuidHigh: 6790840071203056823
+    m_SerializedTextureGuid:
+      m_GuidLow: 1874824223031487646
+      m_GuidHigh: 7786235435209806856
+    m_Size: {x: 0.17, y: 0.15662064}
+    m_SpecifySize: 1
+    m_Name: Besteck_Messer
+    m_Texture: {fileID: 2800000, guid: 9616ec9eb6b21a0408543d05e0430e6c, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5419783616114604588
+      m_GuidHigh: 13610331539522587322
+    m_SerializedTextureGuid:
+      m_GuidLow: 5792928913126824077
+      m_GuidHigh: 16109423439002227467
+    m_Size: {x: 0.17, y: 0.16425067}
+    m_SpecifySize: 1
+    m_Name: Besteck_Gabel
+    m_Texture: {fileID: 2800000, guid: 7c03988d9e2750640b531432442b90df, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4777397255934228970
+      m_GuidHigh: 14164828700845109139
+    m_SerializedTextureGuid:
+      m_GuidLow: 13138340915433536117
+      m_GuidHigh: 9545892055270819544
+    m_Size: {x: 0.17, y: 0.15522245}
+    m_SpecifySize: 1
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 2800000, guid: e2657a75c373b654d806a47a3fd27984, type: 3}

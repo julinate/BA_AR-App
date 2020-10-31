@@ -605,11 +605,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1017123085496110139, guid: deb1b44afdaf5bb43bc6942d060cd7ab, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -150
+      value: -120
       objectReference: {fileID: 0}
     - target: {fileID: 1017123085496110139, guid: deb1b44afdaf5bb43bc6942d060cd7ab, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -150
+      value: -120
       objectReference: {fileID: 0}
     - target: {fileID: 1017123085496110139, guid: deb1b44afdaf5bb43bc6942d060cd7ab, type: 3}
       propertyPath: m_SizeDelta.x

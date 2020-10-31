@@ -21,7 +21,7 @@ public class ImageTracking : MonoBehaviour
 
         foreach(GameObject prefab in placeablePrefabs)
         {
-            GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+            GameObject newPrefab = Instantiate(prefab, Vector3.one, Quaternion.identity);
             newPrefab.name = prefab.name;
             spawnedPrefabs.Add(prefab.name, newPrefab);
         }
@@ -64,12 +64,12 @@ public class ImageTracking : MonoBehaviour
         prefab.transform.position = position;
         prefab.SetActive(true);
 
-        /*foreach(GameObject go in spawnedPrefabs.Values)
+        foreach(GameObject go in spawnedPrefabs.Values)
         {
             if(go.name != name)
             {
                 go.SetActive(false);
             }
-        } */
+        }
     }
 }
