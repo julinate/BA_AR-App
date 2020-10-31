@@ -16,72 +16,292 @@ MonoBehaviour:
   m_GuidHigh: 1919229426926003103
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5526339368438693368
-      m_GuidHigh: 1425733675640540851
+      m_GuidLow: 5299844650161348032
+      m_GuidHigh: 5995504360388961410
     m_SerializedTextureGuid:
-      m_GuidLow: 3527673858211748515
-      m_GuidHigh: 12361194780520918698
-    m_Size: {x: 0.17, y: 0.1583688}
+      m_GuidLow: 6477349880023494116
+      m_GuidHigh: 13580528003678488011
+    m_Size: {x: 0.112, y: 0.108962715}
     m_SpecifySize: 1
-    m_Name: Besteck_Messer
-    m_Texture: {fileID: 2800000, guid: 02249aa3d0af30f4aaae5c1429c98bab, type: 3}
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 2800000, guid: bcb82de42b6559e4cb45804144ba77bc, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 5043866867128149654
-      m_GuidHigh: 1226629759956415141
+      m_GuidLow: 5518241887072609540
+      m_GuidHigh: 15868896509339578812
     m_SerializedTextureGuid:
-      m_GuidLow: 16353974222297437670
-      m_GuidHigh: 4521409330155463530
-    m_Size: {x: 0.17, y: 0.15975478}
+      m_GuidLow: 649802442714820069
+      m_GuidHigh: 15266362231568788571
+    m_Size: {x: 0.112, y: 0.11165254}
     m_SpecifySize: 1
-    m_Name: Besteck_Gabel
-    m_Texture: {fileID: 2800000, guid: 79ef15e6fce8e2f46aa30d90d445bf3e, type: 3}
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 2800000, guid: fc32ade58fe009045bec18a19003ddd3, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 5756340352455494178
-      m_GuidHigh: 12514305506024851885
+      m_GuidLow: 4665957866882959278
+      m_GuidHigh: 4501742113675109538
     m_SerializedTextureGuid:
-      m_GuidLow: 10359622294657978548
-      m_GuidHigh: 16174979566113456137
-    m_Size: {x: 0.17, y: 0.16083118}
+      m_GuidLow: 16209840268640108449
+      m_GuidHigh: 17242958022970422042
+    m_Size: {x: 0.112, y: 0.11070199}
+    m_SpecifySize: 1
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 2800000, guid: 461dbfa1ebd7e0f41ab31ffcf64a4bef, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5286513153028803912
+      m_GuidHigh: 11715947592763146939
+    m_SerializedTextureGuid:
+      m_GuidLow: 5473149457254678720
+      m_GuidHigh: 8016532378676692681
+    m_Size: {x: 0.112, y: 0.109286465}
+    m_SpecifySize: 1
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 2800000, guid: f24980c0886e4bf4c9067199b971406f, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4689378684824994740
+      m_GuidHigh: 15763863363406583443
+    m_SerializedTextureGuid:
+      m_GuidLow: 14232574907894672768
+      m_GuidHigh: 14642479104777828776
+    m_Size: {x: 0.112, y: 0.10925463}
+    m_SpecifySize: 1
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 2800000, guid: a8332d804378c584a8b95ca72a8934cb, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5394641002460963258
+      m_GuidHigh: 259280288104470185
+    m_SerializedTextureGuid:
+      m_GuidLow: 8094326295244127028
+      m_GuidHigh: 1574593358229196520
+    m_Size: {x: 0.112, y: 0.10964447}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: 44213b34d2e17054e8cef0165114da15, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5112537685769817090
+      m_GuidHigh: 12432274866254581649
+    m_SerializedTextureGuid:
+      m_GuidLow: 14489266159516020169
+      m_GuidHigh: 4551520004987932905
+    m_Size: {x: 0.112, y: 0.10941911}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: fe0a6dc936cdc914e9d0635d543f2a3f, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5608551142140051843
+      m_GuidHigh: 13264608748881257382
+    m_SerializedTextureGuid:
+      m_GuidLow: 10742366448488667043
+      m_GuidHigh: 4680902995093054362
+    m_Size: {x: 0.112, y: 0.11020208}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: 913dd7a38d5e95149a63953a79e8f540, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4734258829117020451
+      m_GuidHigh: 16000961740556484999
+    m_SerializedTextureGuid:
+      m_GuidLow: 9247147327024290271
+      m_GuidHigh: 1478254751042421851
+    m_Size: {x: 0.112, y: 0.10982424}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: 1cfc59df778080545bc46a2bddd08314, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5464894590093340059
+      m_GuidHigh: 8166516363531588527
+    m_SerializedTextureGuid:
+      m_GuidLow: 4036463019493181075
+      m_GuidHigh: 13205272461008657720
+    m_Size: {x: 0.112, y: 0.10835031}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: e9e4469365ba3804385dabb8568d42b7, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5622337463249016607
+      m_GuidHigh: 12917078198485947326
+    m_SerializedTextureGuid:
+      m_GuidLow: 7603241524245065847
+      m_GuidHigh: 17191883457279817256
+    m_Size: {x: 0.112, y: 0.10874602}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: f220707723e1698428f613fbead695ee, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5007179040174419990
+      m_GuidHigh: 7442307331805575314
+    m_SerializedTextureGuid:
+      m_GuidLow: 3626730346627079263
+      m_GuidHigh: 14609044397715813705
+    m_Size: {x: 0.112, y: 0.11085235}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: f6d61c5fbc08325449f5c2497ac0bdca, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5525334173543075717
+      m_GuidHigh: 8100649367595667127
+    m_SerializedTextureGuid:
+      m_GuidLow: 6094601315551199710
+      m_GuidHigh: 6076070382521654267
+    m_Size: {x: 0.112, y: 0.10966335}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: 1d0ec1de5f9b5494fb9b790cd2895254, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5289448025789915193
+      m_GuidHigh: 12461500420144420276
+    m_SerializedTextureGuid:
+      m_GuidLow: 154343869472998275
+      m_GuidHigh: 3799833430557944312
+    m_Size: {x: 0.112, y: 0.11057535}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: 7932838356ee0224f8690f6a5fb8bb34, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4836498691554100919
+      m_GuidHigh: 17948963783379190406
+    m_SerializedTextureGuid:
+      m_GuidLow: 15547595625192310198
+      m_GuidHigh: 5740765451473262089
+    m_Size: {x: 0.112, y: 0.11011579}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: af0145b627d8d7c40916e621c34bab4f, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5509420262185031924
+      m_GuidHigh: 16178493137569788821
+    m_SerializedTextureGuid:
+      m_GuidLow: 14137938221638557492
+      m_GuidHigh: 8726655494730117003
+    m_Size: {x: 0.112, y: 0.11051941}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: 152f1f340be8c4348b6f99c8ef4e1b79, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4934024026563497918
+      m_GuidHigh: 9901651294807069627
+    m_SerializedTextureGuid:
+      m_GuidLow: 9972171917492962876
+      m_GuidHigh: 12096176634738027225
+    m_Size: {x: 0.112, y: 0.1107067}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: 2d4b463c45868a64d9aaf09d8f40dea7, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5410898949818777569
+      m_GuidHigh: 3469336557115198619
+    m_SerializedTextureGuid:
+      m_GuidLow: 5973091687990731195
+      m_GuidHigh: 5450679360318618696
+    m_Size: {x: 0.112, y: 0.10848227}
     m_SpecifySize: 1
     m_Name: Trinkhalm
-    m_Texture: {fileID: 2800000, guid: e04e50b4c5968fc409006577371279e0, type: 3}
+    m_Texture: {fileID: 2800000, guid: 5186a1bbaf3e52e4483c58d0ffb3a44b, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 5682217133982379028
-      m_GuidHigh: 2067157909675248011
+      m_GuidLow: 5546735422479665217
+      m_GuidHigh: 18044875254675453363
     m_SerializedTextureGuid:
-      m_GuidLow: 14651457122857614588
-      m_GuidHigh: 7771145038681272361
-    m_Size: {x: 0.17, y: 0.15735082}
+      m_GuidLow: 2388185429942013469
+      m_GuidHigh: 12845741447968382106
+    m_Size: {x: 0.112, y: 0.11008667}
+    m_SpecifySize: 1
+    m_Name: Trinkhalm
+    m_Texture: {fileID: 2800000, guid: d1750e1d89fe21249adcaa8ac93d45b2, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5662683707692021869
+      m_GuidHigh: 10336202248524951682
+    m_SerializedTextureGuid:
+      m_GuidLow: 11724172960501259180
+      m_GuidHigh: 12472216237659880712
+    m_Size: {x: 0.112, y: 0.107981004}
+    m_SpecifySize: 1
+    m_Name: Trinkhalml
+    m_Texture: {fileID: 2800000, guid: b3eadbaca130a2b4087d9367963616ad, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5206592677750921832
+      m_GuidHigh: 13500351427950340029
+    m_SerializedTextureGuid:
+      m_GuidLow: 7679975990084105443
+      m_GuidHigh: 261714765832396731
+    m_Size: {x: 0.112, y: 0.108863816}
+    m_SpecifySize: 1
+    m_Name: Trinkhalm
+    m_Texture: {fileID: 2800000, guid: 047df4e3c1796a94bb1fea6131cca103, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5050212737067364388
+      m_GuidHigh: 8550008617542804393
+    m_SerializedTextureGuid:
+      m_GuidLow: 5437153795383472235
+      m_GuidHigh: 4650062788204034120
+    m_Size: {x: 0.112, y: 0.110577635}
     m_SpecifySize: 1
     m_Name: Wattestaebchen
-    m_Texture: {fileID: 2800000, guid: 61cb7cfc6ea0cb5429f0a2483da7d86b, type: 3}
+    m_Texture: {fileID: 2800000, guid: d2ffb06ba6914b7448f8290278578840, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 5470189696185535170
-      m_GuidHigh: 6790840071203056823
+      m_GuidLow: 5042617820055844336
+      m_GuidHigh: 6208373526651087008
     m_SerializedTextureGuid:
-      m_GuidLow: 1874824223031487646
-      m_GuidHigh: 7786235435209806856
-    m_Size: {x: 0.17, y: 0.15662064}
-    m_SpecifySize: 1
-    m_Name: Besteck_Messer
-    m_Texture: {fileID: 2800000, guid: 9616ec9eb6b21a0408543d05e0430e6c, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5419783616114604588
-      m_GuidHigh: 13610331539522587322
-    m_SerializedTextureGuid:
-      m_GuidLow: 5792928913126824077
-      m_GuidHigh: 16109423439002227467
-    m_Size: {x: 0.17, y: 0.16425067}
-    m_SpecifySize: 1
-    m_Name: Besteck_Gabel
-    m_Texture: {fileID: 2800000, guid: 7c03988d9e2750640b531432442b90df, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 4777397255934228970
-      m_GuidHigh: 14164828700845109139
-    m_SerializedTextureGuid:
-      m_GuidLow: 13138340915433536117
-      m_GuidHigh: 9545892055270819544
-    m_Size: {x: 0.17, y: 0.15522245}
+      m_GuidLow: 5148815029575218246
+      m_GuidHigh: 8241234446333026699
+    m_Size: {x: 0.112, y: 0.108996846}
     m_SpecifySize: 1
     m_Name: Wattestaebchen
-    m_Texture: {fileID: 2800000, guid: e2657a75c373b654d806a47a3fd27984, type: 3}
+    m_Texture: {fileID: 2800000, guid: 6405f44643fd47748ba164a410bf5e72, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5138830674444654480
+      m_GuidHigh: 13860511890950097589
+    m_SerializedTextureGuid:
+      m_GuidLow: 9913739380101131245
+      m_GuidHigh: 5506606670053399931
+    m_Size: {x: 0.112, y: 0.107690565}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: e2baabedad7089947b5d545697656b4c, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4753932913217810160
+      m_GuidHigh: 12764342275798907023
+    m_SerializedTextureGuid:
+      m_GuidLow: 10278447825219734078
+      m_GuidHigh: 746934302352648683
+    m_Size: {x: 0.112, y: 0.10806858}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: e89bca3e61d68ea4eba94862caa45d0a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5265935350406240863
+      m_GuidHigh: 3431970789172608683
+    m_SerializedTextureGuid:
+      m_GuidLow: 16569995243308769754
+      m_GuidHigh: 8872576396297994025
+    m_Size: {x: 0.112, y: 0.10861937}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: d754e1da72e1e5f4297fdb3739b9217b, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5088075931064107358
+      m_GuidHigh: 5287823968059429810
+    m_SerializedTextureGuid:
+      m_GuidLow: 9278721844874293855
+      m_GuidHigh: 12701697625647419560
+    m_Size: {x: 0.112, y: 0.10833168}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 2800000, guid: 6d63b25fa45b80c4a81023adb17e45b0, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5222990201993931128
+      m_GuidHigh: 13546491271537742210
+    m_SerializedTextureGuid:
+      m_GuidLow: 7968038027893051874
+      m_GuidHigh: 13358875405619703272
+    m_Size: {x: 0.112, y: 0.10865994}
+    m_SpecifySize: 1
+    m_Name: Trinkhalm
+    m_Texture: {fileID: 2800000, guid: b15e91e2285e6e94e82daa2e674264b9, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4902433503525233809
+      m_GuidHigh: 12838938039351039912
+    m_SerializedTextureGuid:
+      m_GuidLow: 17596802937468068944
+      m_GuidHigh: 11226079501308919259
+    m_Size: {x: 0.112, y: 0.10773593}
+    m_SpecifySize: 1
+    m_Name: Trinkhalm
+    m_Texture: {fileID: 2800000, guid: 2e55a450670af434dbfdcfffd30bcb9b, type: 3}
