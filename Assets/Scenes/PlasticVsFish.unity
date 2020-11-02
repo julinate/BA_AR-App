@@ -963,5 +963,37 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2298496784232301701, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298496784232301701, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298496784232301701, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298496784232301701, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298496784232301701, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
+      propertyPath: m_fontStyle
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298496784232301701, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.06132078
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298496784232301701, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298496784232301701, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294952976
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4eb854535970334b9c6fd57347d383f, type: 3}
