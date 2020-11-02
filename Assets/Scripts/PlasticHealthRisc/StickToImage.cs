@@ -56,10 +56,6 @@ public class StickToImage : MonoBehaviour
         }
     }
 
-    void RemoveTrackedImage(ARTrackedImage trackedImage)
-    {
-        Destroy(this);
-    }
 
     void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
@@ -68,8 +64,5 @@ public class StickToImage : MonoBehaviour
 
         foreach (var trackedImage in eventArgs.updated)
             UpdateTrackedImage(trackedImage);
-
-        foreach (var trackedImage in eventArgs.removed)
-            RemoveTrackedImage(trackedImage);
     }
 }
