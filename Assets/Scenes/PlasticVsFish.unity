@@ -555,7 +555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -1732}
+  m_AnchoredPosition: {x: 80, y: -1744}
   m_SizeDelta: {x: 790, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1170170084
@@ -1194,7 +1194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -1581}
+  m_AnchoredPosition: {x: 80, y: -1593}
   m_SizeDelta: {x: 790, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &3008293655395473803
@@ -1249,8 +1249,8 @@ MonoBehaviour:
     Plastikverschmutzung zu verstehen. Denn erst wenn gehandelt wird, treten diese
     Prognosen im besten Fall niemals ein.\n\nHalte dein Ger\xE4t \xFCber diese Seite
     und siehe, was passiert.\n\nWenn du erfahren m\xF6chtest, was du gegen die Verm\xFCllung
-    der Meere tun kannst und welche Aktionen es vielleicht auch in deiner N\xE4he
-    gibt, schau auf diesen Seiten vorbei:"
+    der Meere tun kannst und welche Aktionen es in deiner N\xE4he gibt, sind diese
+    Seiten die richtige Adresse:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
   m_sharedMaterial: {fileID: -6018115761627045095, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}

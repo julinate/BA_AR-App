@@ -105,7 +105,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8338320461688153365}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 65e5c3e0099b55147ac3f9db9c8d160c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 6097f67af73264445a87b117d6f7af50, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -117,9 +117,9 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 1
+  m_AudioOutputMode: 2
   m_TargetAudioSources:
-  - {fileID: 0}
+  - {fileID: 62809427440174263}
   m_DirectAudioVolumes:
   - 1
   m_Url: 
@@ -139,7 +139,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8338320461688153365}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
