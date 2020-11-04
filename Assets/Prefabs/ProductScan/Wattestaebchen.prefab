@@ -56,7 +56,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6018115761627045095, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
+  - {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,8 +105,8 @@ MonoBehaviour:
 
     Papier (Einweg)'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
-  m_sharedMaterial: {fileID: -6018115761627045095, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
+  m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -142,9 +142,9 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 20
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 20
+  m_paragraphSpacing: 40
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -359,7 +359,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6396356906692291559, guid: 402c663475dc14a4aa3d379462b29a78, type: 2}
+  - {fileID: 9092591676416710958, guid: 3bb8cf6349495a14ba7fe8ccd7b40087, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -403,15 +403,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Wattest\xE4bchen aus alternativen Materialien"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 402c663475dc14a4aa3d379462b29a78, type: 2}
-  m_sharedMaterial: {fileID: 6396356906692291559, guid: 402c663475dc14a4aa3d379462b29a78, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3bb8cf6349495a14ba7fe8ccd7b40087, type: 2}
+  m_sharedMaterial: {fileID: 9092591676416710958, guid: 3bb8cf6349495a14ba7fe8ccd7b40087, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4288920405
+  m_fontColor: {r: 0.33333334, g: 0.73333335, b: 0.6392157, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
