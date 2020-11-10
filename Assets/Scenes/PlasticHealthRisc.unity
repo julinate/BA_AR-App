@@ -35535,7 +35535,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Copyrighthinweise\nInformationen basierend auf: \nPLASTIKATLAS | Appenzeller/Hecher/
-    Sach (M) CC-BY-4.0, S. 16\nLow poly fish by \nMarcus Vinicius/Sketchfab "
+    Sach (M) CC-BY-4.0, S. 16\nLow poly fish \nby Marcus Vinicius/Sketchfab "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
   m_sharedMaterial: {fileID: -6018115761627045095, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}

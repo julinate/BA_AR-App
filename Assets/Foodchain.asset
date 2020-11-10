@@ -31,7 +31,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 15453136487642437224
       m_GuidHigh: 6928826302912983323
-    m_Size: {x: 0.029, y: 0.044901986}
+    m_Size: {x: 0.03, y: 0.04645033}
     m_SpecifySize: 1
     m_Name: Netz
     m_Texture: {fileID: 0}

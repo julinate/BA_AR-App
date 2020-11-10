@@ -871,7 +871,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -1437}
-  m_SizeDelta: {x: 800, y: 308.03815}
+  m_SizeDelta: {x: 800, y: 434.3521}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1953709769
 MonoBehaviour:
@@ -894,7 +894,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Copyrighthinweise\nBubbles \nby Mike Koenig/Soundbible.com\nLarge Bubbles
-    \nby snottyboy/Soundbible.com\n"
+    \nby snottyboy/Soundbible.com\nUnderwater White Noise\nby psyboy123/Freesound.org\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
   m_sharedMaterial: {fileID: -6018115761627045095, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 786445483440901020}
   m_Direction: 3
   m_Value: 1.0000002
-  m_Size: 0.7645186
+  m_Size: 0.7190833
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1615,7 +1615,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00012207031}
-  m_SizeDelta: {x: 799.9997, y: 1831.2175}
+  m_SizeDelta: {x: 799.9997, y: 1946.9231}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &786445485057248162
 GameObject:

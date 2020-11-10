@@ -1194,9 +1194,9 @@ MonoBehaviour:
   m_text: "Copyrighthinweise\nInformationen basierend auf: \nMEERESATLAS | petraboeckmann.de
     \nCC-BY 4.0, S. 19\nSimple Probs, Simple Port, Simple FX \nby Synty Studios/Unity
     Asset Store\nLow Poly Buildings Lite \nby A3D/Unity Asset Store\nFree Shipping
-    Containers \nby Calvin Weibel/ Unity Asset Store\nFlock of Seagulls by \nDaniel
+    Containers \nby Calvin Weibel/ Unity Asset Store\nFlock of Seagulls \nby Daniel
     Simion/Soundbible.com\nSea Waves \nby Mike Koenig/Soundbible.com\nIndustrial
-    Sounds by \nMike Koenig/Soundbible.com\nFamily Meal Babbling 3 by \nWalter Odington/Freesound.org\n"
+    Sounds \nby Mike Koenig/Soundbible.com\nFamily Meal Babbling 3 \nby Walter Odington/Freesound.org\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
   m_sharedMaterial: {fileID: -6018115761627045095, guid: 8b2c8d2b1caae0a4ebcdbd96577a62f8, type: 2}
