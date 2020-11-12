@@ -2,11 +2,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.Events;
 
 
 [RequireComponent(typeof(ARRaycastManager))]
 public class PlacementWithManySelectionController : MonoBehaviour
 {
+
+    public UnityEvent TabOnObject; //neu
 
     [SerializeField]
     private PlacementObject[] placedObjects;
@@ -74,7 +77,8 @@ public class PlacementWithManySelectionController : MonoBehaviour
             else 
             {
                 current.Selected = true;
-                meshRenderer.material.color = activeColor;  
+                meshRenderer.material.color = activeColor;
+                TabOnObject.Invoke(); //neu
             }
 
             if (displayOverlay)

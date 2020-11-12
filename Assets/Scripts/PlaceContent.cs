@@ -4,12 +4,15 @@ using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.EventSystems;
+using UnityEngine.Events; //neu
 
 
 public class PlaceContent : MonoBehaviour
 {
     public ARRaycastManager raycastManager;
     public GraphicRaycaster raycaster;
+
+    public UnityEvent ActivateObjectOnPlacement; //neu
 
     private void Update()
     {
@@ -21,6 +24,7 @@ public class PlaceContent : MonoBehaviour
 
             if (hitPoints.Count > 0)
             {
+                ActivateObjectOnPlacement.Invoke(); //neu
                 Pose pose = hitPoints[0].pose;
                 transform.rotation = pose.rotation;
                 transform.position = pose.position;

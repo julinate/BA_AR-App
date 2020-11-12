@@ -421,8 +421,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 741425416}
   m_HandleRect: {fileID: 741425415}
   m_Direction: 3
-  m_Value: 1
-  m_Size: 0.5758945
+  m_Value: 1.0000002
+  m_Size: 0.5758946
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1615,12 +1615,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259096678667711276}
-  m_LocalRotation: {x: 0.67070365, y: 0.22395664, z: -0.22395664, w: 0.67070365}
-  m_LocalPosition: {x: -0.0446, y: 0.001, z: 0.0157}
-  m_LocalScale: {x: 0.05, y: 0.050000004, z: 0}
+  m_LocalRotation: {x: 0.6707037, y: 0.22395666, z: -0.22395666, w: 0.6707037}
+  m_LocalPosition: {x: -0.0446, y: 0.0009999275, z: 0.0157}
+  m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0}
   m_Children: []
   m_Father: {fileID: 4719972959031639975}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 89.972, y: 0, z: -36.93}
 --- !u!198 &259096678682152038
 ParticleSystem:
@@ -1874,7 +1874,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.04
+      scalar: 0.05
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -7104,7 +7104,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.04
+      scalar: 0.05
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -11466,11 +11466,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2864391124932645407}
   m_LocalRotation: {x: 0.61867607, y: 0.34240317, z: -0.34240317, w: 0.61867607}
-  m_LocalPosition: {x: -0.0757, y: 0.001, z: 0.0571}
-  m_LocalScale: {x: 0.05, y: 0.050000004, z: 0}
+  m_LocalPosition: {x: -0.0757, y: 0.0009999275, z: 0.0571}
+  m_LocalScale: {x: 0.050000012, y: 0.050000016, z: 0}
   m_Children: []
   m_Father: {fileID: 4719972959031639975}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -57.924}
 --- !u!1 &2864391124932645407
 GameObject:
@@ -11742,7 +11742,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.04
+      scalar: 0.05
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -16170,8 +16170,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3211752017892398933}
   m_LocalRotation: {x: 0.5863714, y: 0.3951817, z: -0.3951817, w: 0.5863714}
-  m_LocalPosition: {x: 0.0191, y: 0.001, z: -0.0316}
-  m_LocalScale: {x: 0.05, y: 0.050000004, z: 0}
+  m_LocalPosition: {x: 0.0191, y: 0.0009999275, z: -0.0316}
+  m_LocalScale: {x: 0.05, y: 0.050000012, z: 0}
   m_Children: []
   m_Father: {fileID: 4719972959031639975}
   m_RootOrder: 7
@@ -26951,7 +26951,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639914}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_Children:
@@ -28959,11 +28959,11 @@ Transform:
   - {fileID: 4719972959031639996}
   - {fileID: 4719972959031639987}
   - {fileID: 4719972959031639900}
-  - {fileID: 259096678667994282}
-  - {fileID: 2864391124932486553}
-  - {fileID: 3211752017892171987}
-  - {fileID: 5802535383742731555}
   - {fileID: 8695142881905001541}
+  - {fileID: 5802535383742731555}
+  - {fileID: 3211752017892171987}
+  - {fileID: 2864391124932486553}
+  - {fileID: 259096678667994282}
   - {fileID: 4719972959031639986}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -29120,9 +29120,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639872}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.297, y: 0.21, z: 1}
+  m_LocalScale: {x: 0.297, y: 0.21000002, z: 1}
   m_Children: []
   m_Father: {fileID: 4719972959031639975}
   m_RootOrder: 10
@@ -29135,7 +29135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.039244547, y: 0.04247319, z: 0.07360857}
+  m_LocalPosition: {x: -0.039244547, y: 0.042473078, z: 0.07360857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4719972959031639899}
@@ -29174,7 +29174,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639877}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.10148417, y: 0.0062997565, z: -0.089123145}
+  m_LocalPosition: {x: 0.10148417, y: 0.006299734, z: -0.089123145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4719972959031639980}
@@ -29278,7 +29278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639884}
   m_LocalRotation: {x: -0, y: -0.99929863, z: -0, w: -0.0374466}
-  m_LocalPosition: {x: -0.0215, y: 0.011139959, z: 0.0477}
+  m_LocalPosition: {x: -0.0215, y: 0.01113987, z: 0.0477}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4719972959031639992}
@@ -29317,6 +29317,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   raycastManager: {fileID: 2146380307}
   raycaster: {fileID: 2137408053}
+  ActivateObjectOnPlacement:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4719972959031640025}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4719972959031640026}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4719972959031640027}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4719972959031640028}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!4 &4719972959031639999
 Transform:
   m_ObjectHideFlags: 0
@@ -29601,7 +29652,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639838}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 997348da258918648a3e896b0aeded09, type: 3}
@@ -29697,7 +29748,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639929}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5b8bcf89800606b4bbe69b0d6f8b8491, type: 3}
@@ -29793,7 +29844,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639880}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f8d708ab9f1481943b3bc87c95f6ac24, type: 3}
@@ -29889,7 +29940,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719972959031639888}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e6d673cd239d6554eae65277dfdba3cf, type: 3}
@@ -30521,11 +30572,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5802535383742505637}
   m_LocalRotation: {x: 0.6699446, y: 0.2262174, z: -0.2262174, w: 0.6699446}
-  m_LocalPosition: {x: 0.1244, y: 0.001, z: -0.0328}
-  m_LocalScale: {x: 0.05, y: 0.050000004, z: 0}
+  m_LocalPosition: {x: 0.1244, y: 0.0009999275, z: -0.0328}
+  m_LocalScale: {x: 0.04999999, y: 0.050000004, z: 0}
   m_Children: []
   m_Father: {fileID: 4719972959031639975}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -37.316}
 --- !u!199 &5802535383761059309
 ParticleSystemRenderer:
@@ -30845,7 +30896,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.04
+      scalar: 0.05
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -35752,7 +35803,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.04
+      scalar: 0.05
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -40132,9 +40183,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8695142881904784323}
   m_LocalRotation: {x: 0.7009901, y: -0.09280588, z: 0.09280588, w: 0.7009901}
-  m_LocalPosition: {x: 0.096, y: 0.001, z: -0.0862}
+  m_LocalPosition: {x: 0.096, y: 0.0009999275, z: -0.0862}
   m_LocalScale: {x: 0.05, y: 0.050000004, z: 0}
   m_Children: []
   m_Father: {fileID: 4719972959031639975}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 15.083}

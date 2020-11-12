@@ -40,7 +40,7 @@ public class PlaceContentAutoHidePlane : MonoBehaviour
                 point.gameObject.SetActive(false);
             }
 
-            pointCloudManager.enabled = false;
+            //pointCloudManager.enabled = false;
         }
     }
 
