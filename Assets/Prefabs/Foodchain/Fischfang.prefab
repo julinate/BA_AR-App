@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 7324545670332371435}
   - component: {fileID: 6349521871641876868}
   m_Layer: 0
-  m_Name: TextquadAndFish
+  m_Name: TextquadAndBleak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,15 +271,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130021754974161256}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000025052577}
-  m_LocalScale: {x: 20, y: 24.353148, z: 19.07692}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 15.384615, y: 24.353148, z: 19.07692}
   m_Children: []
   m_Father: {fileID: 3242807981691530129}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.023299709}
+  m_AnchoredPosition: {x: 0, y: 0.023299808}
   m_SizeDelta: {x: 0.04576814, y: 0.0056883506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1803348863429910525
@@ -726,11 +726,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3242807981691529756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000025080517}
-  m_LocalScale: {x: 20, y: 24.353148, z: 19.07692}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 15.384615, y: 24.353148, z: 19.07692}
   m_Children: []
   m_Father: {fileID: 3242807981691530129}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -798,7 +798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Oh, dein gefangener Fisch hat bereits
+  m_text: "Oh, dieser Ukelei \nhat bereits"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
@@ -897,11 +897,11 @@ Transform:
   m_GameObject: {fileID: 3242807981691529932}
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
   m_LocalPosition: {x: 0, y: -0.00338, z: -0.00195}
-  m_LocalScale: {x: 0.05, y: 0.042797484, z: 0.05}
+  m_LocalScale: {x: 0.065, y: 0.042797484, z: 0.05}
   m_Children:
-  - {fileID: 3224569625165000210}
-  - {fileID: 9085185400413277985}
   - {fileID: 3242807981691530183}
+  - {fileID: 9085185400413277985}
+  - {fileID: 3224569625165000210}
   m_Father: {fileID: 7545536022531639751}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
@@ -994,15 +994,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3531318073304497578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000024959445}
-  m_LocalScale: {x: 20, y: 24.353148, z: 19.07692}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 15.384615, y: 24.353148, z: 19.07692}
   m_Children: []
   m_Father: {fileID: 3242807981691530129}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.13453689}
+  m_AnchoredPosition: {x: 0, y: -0.1345369}
   m_SizeDelta: {x: 0.04576814, y: 0.004853783}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &7664887925718683769

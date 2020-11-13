@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &511946862
 GameObject:
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: 0c1d47846845f284abde8013703f6aa0, type: 2}
-  m_MaxNumberOfMovingImages: 2
+  m_MaxNumberOfMovingImages: 4
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &511946866
 MonoBehaviour:
@@ -358,7 +358,7 @@ Transform:
   m_LocalScale: {x: 0.297, y: 0.21, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &642687025
 GameObject:
@@ -842,7 +842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -735.1684}
+  m_AnchoredPosition: {x: 0, y: -308}
   m_SizeDelta: {x: 30, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704432218
@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 11247835017404291}
   m_Direction: 3
   m_Value: 1
-  m_Size: 0.51516753
+  m_Size: 0.56564105
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1491,7 +1491,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00012207031}
-  m_SizeDelta: {x: 799.9997, y: 2717.5623}
+  m_SizeDelta: {x: 799.9997, y: 2475.0676}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &11247835593629631
 MonoBehaviour:
@@ -1598,8 +1598,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2344.4}
-  m_SizeDelta: {x: 800, y: 387.95514}
+  m_AnchoredPosition: {x: 0, y: -1794}
+  m_SizeDelta: {x: 800, y: 548.50885}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &11247836065613161
 MonoBehaviour:
@@ -1631,6 +1631,15 @@ MonoBehaviour:
     FX - Cartoon Particles
 
     by Synty Studios/Unity Asset Store
+
+    Jellyfish
+    Net
+
+    by Anthony Yanez/Sketchfab
+
+    Underwater Ambience
+
+    by Kinoton/Freesound.org
 
 
 '
@@ -2049,14 +2058,10 @@ MonoBehaviour:
     k\xF6nnen sie von Organismen aufgenommen werden. Fische fressen durch Mikroplastik
     belastetes Plankton oder verwechseln Plastik mit ebendiesem. Die Giftstoffe k\xF6nnen
     sich im Muskelfleisch der Tiere ansammeln, wodurch sie auch in unsere Nahrungskette
-    gelangen. \n\nWenn du das gr\xF6\xDFte Polygon abscannst, kannst du Fische inmitten
-    von Plankton- und (leider auch) Plastikschw\xE4rmen beobachten. Lust, zum Forscher
-    zu werden? Zeichne dir ein Fangnetz mit einem schwarzen Stift, schneide es aus
-    und halte es in die N\xE4he des Polygons. Nun kannst du Fische fangen und herausfinden,
-    wie viel Mikroplastik sie bereits aufgenommen haben. Und keine Sorge: Hierbei
-    kommt kein Tier zu Schaden.\n\nWichtig: Zeichne dein Netz nach dem nachfolgenden
-    Vorbild. Achte auf die genaue Anzahl der Netzmaschen, den ausgef\xFCllten Balken
-    und den Rahmen."
+    gelangen. \n\nSchaffst du es einen Fisch zu fangen, der noch kein Plastik gefressen
+    hat? Zeichne dir ein Netz nach der Vorlage weiter unten und scanne die unterlegten
+    Polygone auf der Seite ab.\n\nWichtig: Achte beim Zeichnen auf die genaue Anzahl
+    der Netzmaschen, den ausgef\xFCllten Balken und den Rahmen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
@@ -2142,7 +2147,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -0.000022888184, y: 5}
-  m_SizeDelta: {x: 800, y: 1880.2563}
+  m_SizeDelta: {x: 800, y: 1358.4849}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1724622105751134787
 GameObject:
@@ -2174,7 +2179,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1809320478183963739
 GameObject:
@@ -2186,7 +2191,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1809320478183963737}
   - component: {fileID: 1809320478183963741}
+  - component: {fileID: 1809320478183963743}
   - component: {fileID: 1809320478183963740}
+  - component: {fileID: 1809320478183963742}
   m_Layer: 0
   m_Name: ObjectManager
   m_TagString: Untagged
@@ -2208,6 +2215,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ImageTrackingObjectManager: {fileID: 1809320478183963741}
   m_SumPrefab: {fileID: 8209936498351186046, guid: 8c71aa006a87eb04eac1641957221ab3, type: 3}
+  m_SecondImageTrackingObjectManager: {fileID: 1809320478183963743}
+  m_SecondSumPrefab: {fileID: 8209936498351186046, guid: 8ace6888669286540bd58312d7816747, type: 3}
 --- !u!114 &1809320478183963741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2217,13 +2226,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 1809320478183963739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49cf2a4a672261e4fa96af7b5769f97c, type: 3}
+  m_Script: {fileID: 11500000, guid: a83385c9160bf1147a9e8edce9db79a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_ImageManager: {fileID: 511946865}
   m_ImageLibrary: {fileID: 11400000, guid: 0c1d47846845f284abde8013703f6aa0, type: 2}
-  m_OnePrefab: {fileID: 2270045156299397948, guid: 301c2f0ea9215af4e8e275f5ac29f9f1, type: 3}
-  m_TwoPrefab: {fileID: 6558746480902014449, guid: 7736cd034ef4b624abef8c686487d373, type: 3}
+  m_NetPrefab: {fileID: 6558746480902014449, guid: 7736cd034ef4b624abef8c686487d373, type: 3}
+  m_PlanktonOne: {fileID: 2270045156299397948, guid: 301c2f0ea9215af4e8e275f5ac29f9f1, type: 3}
+--- !u!114 &1809320478183963742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809320478183963739}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abc6513457718040b4cfb110868391f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SecondImageTrackingObjectManager: {fileID: 1809320478183963743}
+  m_SecondSumPrefab: {fileID: 8209936498351186046, guid: 8ace6888669286540bd58312d7816747, type: 3}
+--- !u!114 &1809320478183963743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809320478183963739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2435574ccc026a047933a9746cb8b94c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImageManager: {fileID: 511946865}
+  m_ImageLibrary: {fileID: 11400000, guid: 0c1d47846845f284abde8013703f6aa0, type: 2}
+  m_SecondNetPrefab: {fileID: 6558746480902014449, guid: 7736cd034ef4b624abef8c686487d373, type: 3}
+  m_PlanktonTwo: {fileID: 4757232033262602680, guid: 6bb5d6ad123798843a1523ff64229157, type: 3}
 --- !u!1 &6053024494225470586
 GameObject:
   m_ObjectHideFlags: 0

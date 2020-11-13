@@ -1110,11 +1110,9 @@ MonoBehaviour:
     Doch welche Alternativen gibt es bereits? Finde es heraus und lege einen Gegenstand
     (z.B. ein Trinkhalm oder ein Wattest\xE4bchen) m\xF6glichst mittig auf die Grafik.
     Richte dein Ger\xE4t \xFCber der Grafik aus, damit das Objekt gescannt werden
-    kann. Nach ein paar Sekunden wird ein Kasten erscheinen, der dir verraten wird,
-    welche Ersatzstoffe schon zur Produktion dieses Gegenstandes genutzt werden.\r\n\r\nUm
-    einen neuen Gegenstand zu scannen, tippe auf den Button auf der rechten Seite.\r\n\r\nMehr
-    Informationen zu Materialien, die bereits als Plastikersatz dienen, findest du
-    auf diesen Seiten:\r"
+    kann und warte einen Moment.\n\r\nUm einen neuen Gegenstand zu scannen, tippe
+    auf den Button auf der rechten Seite.\r\n\r\nMehr Informationen zu Materialien,
+    die bereits als Plastikersatz dienen, findest du auf diesen Seiten:\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
@@ -1226,7 +1224,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -0.000022888184, y: 5}
-  m_SizeDelta: {x: 800, y: 1309.8403}
+  m_SizeDelta: {x: 800, y: 1088.6694}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &709079472883017628
 MonoBehaviour:
@@ -1642,7 +1640,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1339}
+  m_AnchoredPosition: {x: 0, y: -1117}
   m_SizeDelta: {x: 800, y: 145.54529}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2170677244853177455
@@ -1779,7 +1777,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00012207031}
-  m_SizeDelta: {x: 799.9997, y: 1556.6492}
+  m_SizeDelta: {x: 799.9997, y: 1307.1562}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2170677245320713917
 CanvasRenderer:
@@ -2052,8 +2050,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2170677245950416521}
   m_HandleRect: {fileID: 2170677245950416518}
   m_Direction: 3
-  m_Value: 1.0000008
-  m_Size: 0.89936763
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:

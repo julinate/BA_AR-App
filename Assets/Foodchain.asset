@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 4705722833772167524
       m_GuidHigh: 10793909135665589655
     m_SerializedTextureGuid:
-      m_GuidLow: 1559633714677768626
-      m_GuidHigh: 13646316640811296570
-    m_Size: {x: 0.06, y: 0.04586724}
+      m_GuidLow: 13890407682995930880
+      m_GuidHigh: 8545141154967183977
+    m_Size: {x: 0.06, y: 0.048360653}
     m_SpecifySize: 1
     m_Name: Planktonsammlung
     m_Texture: {fileID: 0}
@@ -34,4 +34,14 @@ MonoBehaviour:
     m_Size: {x: 0.03, y: 0.04645033}
     m_SpecifySize: 1
     m_Name: Netz
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5289542140045080908
+      m_GuidHigh: 9944210386337949099
+    m_SerializedTextureGuid:
+      m_GuidLow: 15011746369418556180
+      m_GuidHigh: 12798003355926172410
+    m_Size: {x: 0.0266, y: 0.034402665}
+    m_SpecifySize: 1
+    m_Name: Planktonsammlung2
     m_Texture: {fileID: 0}

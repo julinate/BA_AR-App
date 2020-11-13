@@ -32,51 +32,51 @@ public class ImageTrackingObjectManager : MonoBehaviour
     }
 
     [SerializeField]
-    [Tooltip("Prefab for tracked 1 image")]
-    GameObject m_OnePrefab;
+    [Tooltip("Prefab for Net image")]
+    GameObject m_NetPrefab;
 
     /// <summary>
     /// Get the one prefab
     /// </summary>
-    public GameObject onePrefab
+    public GameObject netPrefab
     {
-        get => m_OnePrefab;
-        set => m_OnePrefab = value;
+        get => m_NetPrefab;
+        set => m_NetPrefab = value;
     }
 
-    GameObject m_SpawnedOnePrefab;
+    GameObject m_SpawnedNetPrefab;
     
     /// <summary>
     /// get the spawned one prefab
     /// </summary>
-    public GameObject spawnedOnePrefab
+    public GameObject spawnedNetPrefab
     {
-        get => m_SpawnedOnePrefab;
-        set => m_SpawnedOnePrefab = value;
+        get => m_SpawnedNetPrefab;
+        set => m_SpawnedNetPrefab = value;
     }
 
     [SerializeField]
-    [Tooltip("Prefab for tracked 2 image")]
-    GameObject m_TwoPrefab;
+    [Tooltip("Prefab for tracked Plankton One image")]
+    GameObject m_PlanktonOne;
 
     /// <summary>
     /// get the two prefab
     /// </summary>
-    public GameObject twoPrefab
+    public GameObject planktonOne
     {
-        get => m_TwoPrefab;
-        set => m_TwoPrefab = value;
+        get => m_PlanktonOne;
+        set => m_PlanktonOne = value;
     }
 
-    GameObject m_SpawnedTwoPrefab;
+    GameObject m_SpawnedPlanktonOnePrefab;
     
     /// <summary>
     /// get the spawned two prefab
     /// </summary>
-    public GameObject spawnedTwoPrefab
+    public GameObject spawnedPlanktonOnePrefab
     {
-        get => m_SpawnedTwoPrefab;
-        set => m_SpawnedTwoPrefab = value;
+        get => m_SpawnedPlanktonOnePrefab;
+        set => m_SpawnedPlanktonOnePrefab = value;
     }
 
     int m_NumberOfTrackedImages;
@@ -84,13 +84,13 @@ public class ImageTrackingObjectManager : MonoBehaviour
     NumberManager m_OneNumberManager;
     NumberManager m_TwoNumberManager;
 
-    static Guid s_FirstImageGUID;
-    static Guid s_SecondImageGUID;
+    static Guid s_NetImageGUID;
+    static Guid s_PlanktonOneImageGUID;
 
     void OnEnable()
     {
-        s_FirstImageGUID = m_ImageLibrary[0].guid;
-        s_SecondImageGUID = m_ImageLibrary[1].guid;
+        s_NetImageGUID = m_ImageLibrary[1].guid;
+        s_PlanktonOneImageGUID = m_ImageLibrary[0].guid;
         
         m_ImageManager.trackedImagesChanged += ImageManagerOnTrackedImagesChanged;
     }
@@ -105,15 +105,15 @@ public class ImageTrackingObjectManager : MonoBehaviour
         // added, spawn prefab
         foreach(ARTrackedImage image in obj.added)
         {
-            if (image.referenceImage.guid == s_FirstImageGUID)
+            if (image.referenceImage.guid == s_NetImageGUID)
             {
-                m_SpawnedOnePrefab = Instantiate(m_OnePrefab, image.transform.position, image.transform.rotation);
-                m_OneNumberManager = m_SpawnedOnePrefab.GetComponent<NumberManager>();
+                m_SpawnedNetPrefab = Instantiate(m_NetPrefab, image.transform.position, image.transform.rotation);
+                m_OneNumberManager = m_SpawnedNetPrefab.GetComponent<NumberManager>();
             }
-            else if (image.referenceImage.guid == s_SecondImageGUID)
+            else if (image.referenceImage.guid == s_PlanktonOneImageGUID)
             {
-                m_SpawnedTwoPrefab = Instantiate(m_TwoPrefab, image.transform.position, image.transform.rotation);
-                m_TwoNumberManager = m_SpawnedTwoPrefab.GetComponent<NumberManager>();
+                m_SpawnedPlanktonOnePrefab = Instantiate(m_PlanktonOne, image.transform.position, image.transform.rotation);
+                m_TwoNumberManager = m_SpawnedPlanktonOnePrefab.GetComponent<NumberManager>();
             }
         }
         
@@ -123,25 +123,25 @@ public class ImageTrackingObjectManager : MonoBehaviour
             // image is tracking or tracking with limited state, show visuals and update it's position and rotation
             if (image.trackingState == TrackingState.Tracking)
             {
-                if (image.referenceImage.guid == s_FirstImageGUID)
+                if (image.referenceImage.guid == s_NetImageGUID)
                 {
                     m_OneNumberManager.Enable3DNumber(true);
-                    m_SpawnedOnePrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);
+                    m_SpawnedNetPrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);
                 }
-                else if (image.referenceImage.guid == s_SecondImageGUID)
+                else if (image.referenceImage.guid == s_PlanktonOneImageGUID)
                 {
                     m_TwoNumberManager.Enable3DNumber(true);
-                    m_SpawnedTwoPrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);
+                    m_SpawnedPlanktonOnePrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);
                 }
             }
             // image is no longer tracking, disable visuals TrackingState.Limited TrackingState.None
             else
             {
-                if (image.referenceImage.guid == s_FirstImageGUID)
+                if (image.referenceImage.guid == s_NetImageGUID)
                 {
                     m_OneNumberManager.Enable3DNumber(false);
                 }
-                else if (image.referenceImage.guid == s_SecondImageGUID)
+                else if (image.referenceImage.guid == s_PlanktonOneImageGUID)
                 {
                     m_TwoNumberManager.Enable3DNumber(false);
                 }
@@ -151,13 +151,13 @@ public class ImageTrackingObjectManager : MonoBehaviour
         // removed, destroy spawned instance
         foreach(ARTrackedImage image in obj.removed)
         {
-            if (image.referenceImage.guid == s_FirstImageGUID)
+            if (image.referenceImage.guid == s_NetImageGUID)
             {
-                Destroy(m_SpawnedOnePrefab);
+                Destroy(m_SpawnedNetPrefab);
             }
-            else if (image.referenceImage.guid == s_FirstImageGUID)
+            else if (image.referenceImage.guid == s_NetImageGUID)
             {
-                Destroy(m_SpawnedTwoPrefab);
+                Destroy(m_SpawnedPlanktonOnePrefab);
             }
         }
     }
