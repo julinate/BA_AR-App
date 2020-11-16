@@ -285,3 +285,83 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Trinkhalm
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5603035416146099817
+      m_GuidHigh: 11997049562401357738
+    m_SerializedTextureGuid:
+      m_GuidLow: 5184924346494240034
+      m_GuidHigh: 12596090484524915051
+    m_Size: {x: 0.12, y: 0.120581344}
+    m_SpecifySize: 1
+    m_Name: Trinkhalm
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5499254026661984178
+      m_GuidHigh: 7914521030054951568
+    m_SerializedTextureGuid:
+      m_GuidLow: 4815613719905537452
+      m_GuidHigh: 17172255262961253770
+    m_Size: {x: 0.12, y: 0.11329635}
+    m_SpecifySize: 1
+    m_Name: Trinkhalm
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4656593842978640841
+      m_GuidHigh: 10889346312297691815
+    m_SerializedTextureGuid:
+      m_GuidLow: 9593929317297075502
+      m_GuidHigh: 9630624853925507497
+    m_Size: {x: 0.12, y: 0.113976285}
+    m_SpecifySize: 1
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5598302922626854241
+      m_GuidHigh: 16226686318136990398
+    m_SerializedTextureGuid:
+      m_GuidLow: 15849398552240085859
+      m_GuidHigh: 13902160840321725144
+    m_Size: {x: 0.12, y: 0.119952396}
+    m_SpecifySize: 1
+    m_Name: Wattestaebchen
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5682745409615399430
+      m_GuidHigh: 14670501521252106677
+    m_SerializedTextureGuid:
+      m_GuidLow: 17020332937238785730
+      m_GuidHigh: 10554381347235092297
+    m_Size: {x: 0.12, y: 0.111560225}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5450128865779419487
+      m_GuidHigh: 7670899039658055103
+    m_SerializedTextureGuid:
+      m_GuidLow: 8157163381227922614
+      m_GuidHigh: 8654626227635553882
+    m_Size: {x: 0.12, y: 0.12028526}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5032202632357142174
+      m_GuidHigh: 8817360657205689492
+    m_SerializedTextureGuid:
+      m_GuidLow: 16759046379253858708
+      m_GuidHigh: 14040307829370206986
+    m_Size: {x: 0.12, y: 0.11985525}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4786106764895166162
+      m_GuidHigh: 15964802073577787778
+    m_SerializedTextureGuid:
+      m_GuidLow: 3968896788118799074
+      m_GuidHigh: 15002031541112709179
+    m_Size: {x: 0.12, y: 0.11360487}
+    m_SpecifySize: 1
+    m_Name: Besteck
+    m_Texture: {fileID: 0}
