@@ -98,11 +98,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Holz (Einweg)
+  m_text: 'Bagasse/Zuckerrohr (Einweg)
 
     Bambus (Mehrweg)
 
-    Edelstahl (Mehrweg)'
+    Keramik (Mehrweg)
+
+    Edelstahl
+    (Mehrweg)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
@@ -183,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145466168156019912}
   m_Layer: 0
-  m_Name: Wattestaebchen 1
+  m_Name: Becher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -423,7 +426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Besteck aus \nalternativen Materialien:"
+  m_text: "Coffee-To-Go-Becher aus \nalternativen Materialien:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bb8cf6349495a14ba7fe8ccd7b40087, type: 2}
   m_sharedMaterial: {fileID: 9092591676416710958, guid: 3bb8cf6349495a14ba7fe8ccd7b40087, type: 2}

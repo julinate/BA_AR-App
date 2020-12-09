@@ -523,7 +523,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 497316924}
-  - {fileID: 1700972145}
+  - {fileID: 1661809076}
   - {fileID: 2099494853647193712}
   - {fileID: 518753248}
   m_Father: {fileID: 0}
@@ -593,7 +593,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1700972144
+--- !u!1001 &1661809075
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -698,10 +698,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a6b4db8e005f354cae50fc37c870980, type: 3}
---- !u!224 &1700972145 stripped
+--- !u!224 &1661809076 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2096636008453252149, guid: 7a6b4db8e005f354cae50fc37c870980, type: 3}
-  m_PrefabInstance: {fileID: 1700972144}
+  m_PrefabInstance: {fileID: 1661809075}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1766487231
 GameObject:
@@ -928,9 +928,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 6041992de2061e8439320bf0deda3c6e, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: 51bd31c1d885f6f4980e46a23fc67083, type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 8338320461688153365, guid: 2cd7fdef12560934dbd9724a64836c09, type: 3}
+  m_TrackedImagePrefab: {fileID: 8338320461688153365, guid: 02b8972ba542f824bba212f8087ba3be, type: 3}
 --- !u!114 &1883932368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2148,7 +2148,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Plastic Soup
+  m_text: Chat
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9bf776c6b83819a448da77ef9e741346, type: 2}
   m_sharedMaterial: {fileID: -1045236801824288541, guid: 9bf776c6b83819a448da77ef9e741346, type: 2}

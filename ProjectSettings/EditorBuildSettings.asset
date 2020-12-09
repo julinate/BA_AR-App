@@ -7,7 +7,10 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: 07f2acdc057b7ec4ab07a3cd57f73fb9
+    guid: 1e35d3f17f1a6b640a6c260596c09274
+  - enabled: 1
+    path: Assets/Scenes/Chat.unity
+    guid: 8f5e8a6e318104d45bc8e5e115428abd
   - enabled: 1
     path: Assets/Scenes/PlasticToOcean.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab

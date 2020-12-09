@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: PlasticVsFish
+  m_Name: Explorator
   m_EditorClassIdentifier: 
-  m_GuidLow: 5483203113124371786
-  m_GuidHigh: 8615469823388711343
+  m_GuidLow: 4718960211858599244
+  m_GuidHigh: 11782555381651445925
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5239084785067546616
-      m_GuidHigh: 16212656013798876569
+      m_GuidLow: 4880415829866883671
+      m_GuidHigh: 18048417514568382850
     m_SerializedTextureGuid:
-      m_GuidLow: 10900005664933065006
-      m_GuidHigh: 12569222125010825195
-    m_Size: {x: 0.128, y: 0.2099471}
+      m_GuidLow: 10075761067901100036
+      m_GuidHigh: 1125156805065653800
+    m_Size: {x: 0.066985, y: 0.08569883}
     m_SpecifySize: 1
-    m_Name: PlasticVsFish
+    m_Name: Chat
     m_Texture: {fileID: 0}

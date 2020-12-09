@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.EventSystems;
+using UnityEngine.Events; //neu
 
 
 public class PlaceContentAutoHidePlane : MonoBehaviour
@@ -12,6 +13,8 @@ public class PlaceContentAutoHidePlane : MonoBehaviour
     public GraphicRaycaster raycaster;
     public ARPlaneManager planeManager;
     public ARPointCloudManager pointCloudManager;
+
+    public UnityEvent ActivateObjectOnPlacement; //neu
 
     private void Update()
     {
@@ -23,6 +26,7 @@ public class PlaceContentAutoHidePlane : MonoBehaviour
 
             if (hitPoints.Count > 0)
             {
+                ActivateObjectOnPlacement.Invoke(); //neu
                 Pose pose = hitPoints[0].pose;
                 transform.rotation = pose.rotation;
                 transform.position = pose.position;
