@@ -1049,7 +1049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "... f\xE4ngt den M\xFCll // \nSeite xx"
+  m_text: "Vince macht eine Entdeckung // \nSeite xx"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d9ed61703a36fbb4fab508ec403c57b6, type: 2}
   m_sharedMaterial: {fileID: -4709948230721856013, guid: d9ed61703a36fbb4fab508ec403c57b6, type: 2}
@@ -2012,7 +2012,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Der fr\xFChe Vogel ..."
+  m_text: Traumstrand
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9bf776c6b83819a448da77ef9e741346, type: 2}
   m_sharedMaterial: {fileID: -1045236801824288541, guid: 9bf776c6b83819a448da77ef9e741346, type: 2}

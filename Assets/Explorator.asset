@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 4880415829866883671
       m_GuidHigh: 18048417514568382850
     m_SerializedTextureGuid:
-      m_GuidLow: 10075761067901100036
-      m_GuidHigh: 1125156805065653800
-    m_Size: {x: 0.066985, y: 0.08569883}
+      m_GuidLow: 12030484597049905936
+      m_GuidHigh: 5362476607549418392
+    m_Size: {x: 0.066985, y: 0.0857611}
     m_SpecifySize: 1
-    m_Name: Chat
+    m_Name: Chat2
     m_Texture: {fileID: 0}

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8672293720986224613}
   - component: {fileID: 62809427440174263}
   m_Layer: 0
-  m_Name: Chat
+  m_Name: Chat2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 30c06828d47feb24795068bf577a8ddb, type: 2}
+  - {fileID: 2100000, guid: a1ee3f47f216e6d449cfa592d298fcf2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,7 +105,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8338320461688153365}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b94ca41df655e054bab2ab6f83d29975, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 59df4585492bb6441a4446d70ec49207, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -128,7 +128,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 1
+  m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
