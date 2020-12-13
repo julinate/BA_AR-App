@@ -21,7 +21,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 13890407682995930880
       m_GuidHigh: 8545141154967183977
-    m_Size: {x: 0.06, y: 0.048360653}
+    m_Size: {x: 0.0639, y: 0.050047554}
     m_SpecifySize: 1
     m_Name: Planktonsammlung
     m_Texture: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 15011746369418556180
       m_GuidHigh: 12798003355926172410
-    m_Size: {x: 0.0266, y: 0.034402665}
+    m_Size: {x: 0.029429, y: 0.04436312}
     m_SpecifySize: 1
     m_Name: Planktonsammlung2
     m_Texture: {fileID: 0}

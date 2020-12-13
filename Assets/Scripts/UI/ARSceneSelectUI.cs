@@ -126,6 +126,11 @@ namespace UnityEngine.XR.ARFoundation.Samples
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
 
+        public void TestButtonPressed()
+        {
+            LoadScene("Test");
+        }
+        
         public void ChatButtonPressed()
         {
             LoadScene("Chat");
