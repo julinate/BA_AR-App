@@ -15,6 +15,10 @@ public class PlaceContentAutoHidePlane : MonoBehaviour
     public ARPointCloudManager pointCloudManager;
 
     public UnityEvent ActivateObjectOnPlacement; //neu
+    //public UnityEvent HideGuide; //neu
+
+    //[SerializeField]
+    //GameObject UXPlaceGuide;
 
     private void Update()
     {
@@ -27,6 +31,9 @@ public class PlaceContentAutoHidePlane : MonoBehaviour
             if (hitPoints.Count > 0)
             {
                 ActivateObjectOnPlacement.Invoke(); //neu
+                //HideGuide.Invoke(); //neu
+                //UXPlaceGuide.SetActive(false);
+
                 Pose pose = hitPoints[0].pose;
                 transform.rotation = pose.rotation;
                 transform.position = pose.position;

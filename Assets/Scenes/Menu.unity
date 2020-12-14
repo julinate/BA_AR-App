@@ -1524,7 +1524,7 @@ GameObject:
   - component: {fileID: 1667607442}
   - component: {fileID: 1667607441}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: IntroText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1570,7 +1570,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "W\xE4hle den Ausschnitt einer Illustration aus dem Buch \"Weniger ist
-    Meer\" aus, um eine AR-Erfahrung zu starten."
+    Meer\" aus, um zur entsprechenden AR-Funktion zu gelangen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}

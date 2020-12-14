@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
+//using UnityEngine.Events; //neu
 
 
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracking : MonoBehaviour
 {
+
+    //public UnityEvent HideGuide; //neu
+
+    [SerializeField]
+    GameObject UXGuide;
 
     [SerializeField]
     private GameObject[] placeablePrefabs;
@@ -41,6 +47,8 @@ public class ImageTracking : MonoBehaviour
     {
         foreach(ARTrackedImage trackedImage in eventsArgs.added)
         {
+            //HideGuide.Invoke(); //neu
+            Destroy(UXGuide);
             UpdateImage(trackedImage);
         }
 
