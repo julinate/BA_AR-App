@@ -1995,9 +1995,9 @@ MonoBehaviour:
   m_text: "Copyrighthinweise\nInformationen basierend auf: \nMEERESATLAS | petraboeckmann.de
     \nCC-BY 4.0, S. 19\nSimple Probs, Simple Port, \nSimple FX \nby Synty Studios/Unity
     Asset Store\nLow Poly Buildings Lite \nby A3D/Unity Asset Store\nFree Shipping
-    Containers \nby Calvin Weibel/ Unity Asset Store\nFlock of Seagulls \nby Daniel
-    Simion/Soundbible.com\nSea Waves \nby Mike Koenig/Soundbible.com\nIndustrial
-    Sounds \nby Mike Koenig/Soundbible.com\nFamily Meal Babbling 3 \nby Walter Odington/Freesound.org\n"
+    Containers \nby Calvin Weibel/ Unity Asset Store\nSeagulls \nby inchadney/Freesound.org\nSea
+    Waves \nby Mike Koenig/Soundbible.com\nIndustrial Sounds \nby Mike Koenig/Soundbible.com\nFamily
+    Meal Babbling 3 \nby Walter Odington/Freesound.org\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
@@ -30572,9 +30572,9 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 997348da258918648a3e896b0aeded09, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dc5d98b1c2a452849b16c3b3e9ed1f0a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.003
+  m_Volume: 0.203
   m_Pitch: 1
   Loop: 1
   Mute: 0

@@ -89,8 +89,8 @@ public class SecondImageTrackingObjectManager : MonoBehaviour
 
     void OnEnable()
     {
-        s_SecondNetImageGUID = m_ImageLibrary[1].guid;
-        s_PlanktonTwoImageGUID = m_ImageLibrary[2].guid;
+        s_SecondNetImageGUID = m_ImageLibrary[3].guid;
+        s_PlanktonTwoImageGUID = m_ImageLibrary[1].guid;
         
         m_ImageManager.trackedImagesChanged += ImageManagerOnTrackedImagesChanged;
     }

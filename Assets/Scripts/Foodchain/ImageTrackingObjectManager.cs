@@ -89,7 +89,7 @@ public class ImageTrackingObjectManager : MonoBehaviour
 
     void OnEnable()
     {
-        s_NetImageGUID = m_ImageLibrary[1].guid;
+        s_NetImageGUID = m_ImageLibrary[2].guid;
         s_PlanktonOneImageGUID = m_ImageLibrary[0].guid;
         
         m_ImageManager.trackedImagesChanged += ImageManagerOnTrackedImagesChanged;

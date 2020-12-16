@@ -99,8 +99,8 @@ public class DistanceManager : MonoBehaviour
                 {
                     m_SpawnedSumPrefab.SetActive(true);
                     m_SumActive = true;
-                    m_SpawnedSecondSumPrefab.SetActive(false);
-                    m_SecondSumActive = false;
+                    //m_SpawnedSecondSumPrefab.SetActive(false);
+                    //m_SecondSumActive = false;
                 }
                 
                 m_SpawnedSumPrefab.transform.position = (m_NetObject.transform.position + m_PlanktonOneObject.transform.position) / 2;
@@ -115,7 +115,8 @@ public class DistanceManager : MonoBehaviour
         {
             m_SpawnedSumPrefab.SetActive(false);
             m_SumActive = false;
-            m_SecondSumActive = true;
+            //m_SpawnedSecondSumPrefab.SetActive(true);
+            //m_SecondSumActive = true;
         }
 
         //aus SecondDistanceManager -Start-
@@ -130,8 +131,8 @@ public class DistanceManager : MonoBehaviour
                 {
                     m_SpawnedSecondSumPrefab.SetActive(true);
                     m_SecondSumActive = true;
-                    m_SpawnedSumPrefab.SetActive(false);
-                    m_SumActive = false;
+                    //m_SpawnedSumPrefab.SetActive(false);
+                    //m_SumActive = false;
                 }
 
                 m_SpawnedSecondSumPrefab.transform.position = (m_SecondNetObject.transform.position + m_PlanktonTwoObject.transform.position) / 2;
@@ -146,7 +147,8 @@ public class DistanceManager : MonoBehaviour
         {
             m_SpawnedSecondSumPrefab.SetActive(false);
             m_SecondSumActive = false;
-            m_SumActive = false;
+            //m_SpawnedSumPrefab.SetActive(true);
+            //m_SumActive = true;
         }
 
         //aus SecondDistanceManager -Ende-

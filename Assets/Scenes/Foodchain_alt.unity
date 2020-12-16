@@ -249,8 +249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 302743a51ec605c438a2b8e67d5d4528, type: 2}
-  m_MaxNumberOfMovingImages: 6
+  m_SerializedLibrary: {fileID: 11400000, guid: 0c1d47846845f284abde8013703f6aa0, type: 2}
+  m_MaxNumberOfMovingImages: 4
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &511946866
 MonoBehaviour:
@@ -2496,10 +2496,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1809320478183963737}
-  - component: {fileID: 1809320478183963742}
-  - component: {fileID: 1809320478183963743}
   - component: {fileID: 1809320478183963741}
+  - component: {fileID: 1809320478183963743}
   - component: {fileID: 1809320478183963740}
+  - component: {fileID: 1809320478183963742}
   m_Layer: 0
   m_Name: ObjectManager
   m_TagString: Untagged
@@ -2519,41 +2519,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e17d7c18bc9d9741a96a4e066ddc720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ImageTrackingObjectManager: {fileID: 1809320478183963743}
-  m_SumPrefab: {fileID: 8209936498351186046, guid: cf9230f16988dba42a00a3e15933e8f3, type: 3}
-  m_SecondImageTrackingObjectManager: {fileID: 1809320478183963741}
-  m_SecondSumPrefab: {fileID: 8209936498351186046, guid: cd1b792a6f18caf47ab2d6378a3775e7, type: 3}
---- !u!114 &1809320478183963741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809320478183963739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2435574ccc026a047933a9746cb8b94c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ImageManager: {fileID: 511946865}
-  m_ImageLibrary: {fileID: 11400000, guid: 302743a51ec605c438a2b8e67d5d4528, type: 2}
-  m_SecondNetPrefab: {fileID: 8390057586765477786, guid: 6fe962563fdd0204fb3b48b2cc1e0a15, type: 3}
-  m_PlanktonTwo: {fileID: 4757232033262602680, guid: 6bb5d6ad123798843a1523ff64229157, type: 3}
---- !u!114 &1809320478183963742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809320478183963739}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4abc6513457718040b4cfb110868391f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SecondImageTrackingObjectManager: {fileID: 0}
+  m_ImageTrackingObjectManager: {fileID: 1809320478183963741}
+  m_SumPrefab: {fileID: 8209936498351186046, guid: 8c71aa006a87eb04eac1641957221ab3, type: 3}
+  m_SecondImageTrackingObjectManager: {fileID: 1809320478183963743}
   m_SecondSumPrefab: {fileID: 8209936498351186046, guid: 8ace6888669286540bd58312d7816747, type: 3}
---- !u!114 &1809320478183963743
+--- !u!114 &1809320478183963741
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2566,9 +2536,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ImageManager: {fileID: 511946865}
-  m_ImageLibrary: {fileID: 11400000, guid: 302743a51ec605c438a2b8e67d5d4528, type: 2}
-  m_NetPrefab: {fileID: 4765602463241642577, guid: 4c8d9902835196548816bd0e38bc5c50, type: 3}
+  m_ImageLibrary: {fileID: 11400000, guid: 0c1d47846845f284abde8013703f6aa0, type: 2}
+  m_NetPrefab: {fileID: 6558746480902014449, guid: 7736cd034ef4b624abef8c686487d373, type: 3}
   m_PlanktonOne: {fileID: 2270045156299397948, guid: 301c2f0ea9215af4e8e275f5ac29f9f1, type: 3}
+--- !u!114 &1809320478183963742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809320478183963739}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abc6513457718040b4cfb110868391f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SecondImageTrackingObjectManager: {fileID: 1809320478183963743}
+  m_SecondSumPrefab: {fileID: 8209936498351186046, guid: 8ace6888669286540bd58312d7816747, type: 3}
+--- !u!114 &1809320478183963743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809320478183963739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2435574ccc026a047933a9746cb8b94c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImageManager: {fileID: 511946865}
+  m_ImageLibrary: {fileID: 11400000, guid: 0c1d47846845f284abde8013703f6aa0, type: 2}
+  m_SecondNetPrefab: {fileID: 6558746480902014449, guid: 7736cd034ef4b624abef8c686487d373, type: 3}
+  m_PlanktonTwo: {fileID: 4757232033262602680, guid: 6bb5d6ad123798843a1523ff64229157, type: 3}
 --- !u!1 &6053024494225470586
 GameObject:
   m_ObjectHideFlags: 0

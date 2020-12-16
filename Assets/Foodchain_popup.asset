@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: Foodchain
+  m_Name: Foodchain_popup
   m_EditorClassIdentifier: 
-  m_GuidLow: 5440826743511681319
-  m_GuidHigh: 11296177389635716995
+  m_GuidLow: 5401617326187258680
+  m_GuidHigh: 7964124017595242912
   m_Images:
   - m_SerializedGuid:
       m_GuidLow: 4705722833772167524
@@ -26,16 +26,6 @@ MonoBehaviour:
     m_Name: Planktonsammlung
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4983252230109966914
-      m_GuidHigh: 7311648838747284112
-    m_SerializedTextureGuid:
-      m_GuidLow: 15453136487642437224
-      m_GuidHigh: 6928826302912983323
-    m_Size: {x: 0.03, y: 0.04645033}
-    m_SpecifySize: 1
-    m_Name: Netz
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
       m_GuidLow: 5289542140045080908
       m_GuidHigh: 9944210386337949099
     m_SerializedTextureGuid:
@@ -44,4 +34,24 @@ MonoBehaviour:
     m_Size: {x: 0.029429, y: 0.052683525}
     m_SpecifySize: 1
     m_Name: Planktonsammlung2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5618593171532754721
+      m_GuidHigh: 13459044949918860702
+    m_SerializedTextureGuid:
+      m_GuidLow: 6734119935054329630
+      m_GuidHigh: 15742359293456770568
+    m_Size: {x: 0.026223, y: 0.02647677}
+    m_SpecifySize: 1
+    m_Name: Netz
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5603484728009269439
+      m_GuidHigh: 14397580332609819535
+    m_SerializedTextureGuid:
+      m_GuidLow: 14435295970707608709
+      m_GuidHigh: 11837143339418912537
+    m_Size: {x: 0.023439, y: 0.025631135}
+    m_SpecifySize: 1
+    m_Name: Moewe
     m_Texture: {fileID: 0}
