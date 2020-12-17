@@ -1203,8 +1203,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Copyrighthinweise\nBubbles \nby Mike Koenig/Soundbible.com\nLarge Bubbles
-    \nby snottyboy/Soundbible.com\nUnderwater White Noise\nby psyboy123/Freesound.org\n"
+  m_text: 'Copyrighthinweise
+
+    Turtle
+
+    by rkuhlf/Sketchfab
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}

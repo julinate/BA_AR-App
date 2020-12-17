@@ -908,10 +908,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UXGuide: {fileID: 409594434}
   placeablePrefabs:
-  - {fileID: 2145466168156019911, guid: fdb907b1d182d6848a5809e39e9b47e7, type: 3}
+  - {fileID: 2145466168156019911, guid: 4cb40bc75d870294a97e9e31ba7336f3, type: 3}
   - {fileID: 2145466168156019911, guid: 57615a69262006e48a9670cf3b251e93, type: 3}
-  - {fileID: 2145466168156019911, guid: 870972d67d7feb144aa458549f9039d0, type: 3}
-  - {fileID: 2145466168156019911, guid: 2233bf4cec91a96479596951a6ec1483, type: 3}
+  - {fileID: 2145466168156019911, guid: 1023f32eb523d1c459ed93c7aeb0aa08, type: 3}
+  - {fileID: 2145466168156019911, guid: efa38b66d08a90549ac7bebc56b1f7d9, type: 3}
 --- !u!114 &1878669809
 MonoBehaviour:
   m_ObjectHideFlags: 0
