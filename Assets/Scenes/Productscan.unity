@@ -527,6 +527,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562522046}
   m_CullTransparentMesh: 0
+--- !u!1 &1012852979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012852980}
+  - component: {fileID: 1012852982}
+  - component: {fileID: 1012852981}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1012852980
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012852979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 709079472883017631}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1012852981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012852979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 7c23dd1f52aa2f34ea2fd6ce791ca0d9, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1012852982
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012852979}
+  m_CullTransparentMesh: 0
 --- !u!1 &1386846488
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,12 +1020,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Einwegprodukte aus Plastik sind h\xE4ufige Begleiter in unserem Alltag.
-    Doch welche Alternativen gibt es bereits? Finde es heraus und lege einen Gegenstand
-    (z.B. ein Trinkhalm oder ein Wattest\xE4bchen) m\xF6glichst mittig auf die Grafik.
-    Richte dein Ger\xE4t \xFCber der Grafik aus, damit das Objekt gescannt werden
-    kann und warte einen Moment.\n\r\nUm einen neuen Gegenstand zu scannen, tippe
-    auf den Button auf der rechten Seite.\r\n\r\nMehr Informationen zu Materialien,
-    die bereits als Plastikersatz dienen, findest du auf diesen Seiten:\r"
+    Doch welche Alternativen gibt es bereits? Finde es heraus und drehe an der Scheibe,
+    um zwischen den Gegenst\xE4nden zu wechseln. Richte dein Ger\xE4t \xFCber der
+    Grafik aus, damit sie gescannt werden kann und warte einen Moment.\n\r\nUm eine
+    neue Grafik zu scannen, verwende den Reload-Button.\r\n\r\nMehr Informationen
+    zu Materialien, die bereits als Plastikersatz dienen, findest du auf diesen Seiten:\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
@@ -1065,7 +1136,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -0.000022888184, y: 5}
-  m_SizeDelta: {x: 800, y: 1088.6694}
+  m_SizeDelta: {x: 800, y: 894.52026}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &709079472883017628
 MonoBehaviour:
@@ -1074,7 +1145,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709079472883017630}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -1192,14 +1263,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1012852980}
   m_Father: {fileID: 709079473948429162}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 104, y: -63}
-  m_SizeDelta: {x: 790, y: 110.88373}
+  m_SizeDelta: {x: 790, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &709079473948429157
 GameObject:
@@ -1486,7 +1558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1117}
+  m_AnchoredPosition: {x: 0, y: -940}
   m_SizeDelta: {x: 800, y: 145.54529}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2170677244853177455
@@ -1623,7 +1695,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00012207031}
-  m_SizeDelta: {x: 810, y: 1307.1562}
+  m_SizeDelta: {x: 810, y: 1099.9902}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2170677245320713917
 CanvasRenderer:
@@ -1720,7 +1792,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 104, y: -462.9999}
-  m_SizeDelta: {x: 780, y: 1390}
+  m_SizeDelta: {x: 790, y: 1390}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2170677245941634172
 CanvasRenderer:
@@ -1919,7 +1991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: -0.0012207031}
+  m_AnchoredPosition: {x: 10, y: 0}
   m_SizeDelta: {x: 20.52293, y: 1440.0024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2170677246129206632

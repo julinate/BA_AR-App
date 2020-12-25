@@ -19,19 +19,19 @@ MonoBehaviour:
       m_GuidLow: 5224583133267673369
       m_GuidHigh: 6755565743015432379
     m_SerializedTextureGuid:
-      m_GuidLow: 13674219021862408361
-      m_GuidHigh: 12513746095683065944
-    m_Size: {x: 0.04855, y: 0.084835626}
+      m_GuidLow: 1527850569346241205
+      m_GuidHigh: 7779556480445257241
+    m_Size: {x: 0.078442, y: 0.067526124}
     m_SpecifySize: 1
-    m_Name: Schildkroete
+    m_Name: Moewe1
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5219645833510335241
       m_GuidHigh: 14057003372305562244
     m_SerializedTextureGuid:
-      m_GuidLow: 3446612501791722372
-      m_GuidHigh: 11679374731311652392
-    m_Size: {x: 0.04855, y: 0.08468808}
+      m_GuidLow: 15979998485340332542
+      m_GuidHigh: 14436862004881985995
+    m_Size: {x: 0.05904, y: 0.03986678}
     m_SpecifySize: 1
-    m_Name: Schildkroete_vorne
+    m_Name: Moewe2
     m_Texture: {fileID: 0}

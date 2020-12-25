@@ -1211,6 +1211,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &413738501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 413738502}
+  - component: {fileID: 413738504}
+  - component: {fileID: 413738503}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &413738502
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413738501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1713869738731515934}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &413738503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413738501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 87242a4005acf824fb45e87df739054b, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &413738504
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413738501}
+  m_CullTransparentMesh: 0
 --- !u!1 &458842853
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,7 +1365,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 741425415}
   m_Direction: 3
   m_Value: 1
-  m_Size: 0.50807947
+  m_Size: 0.57842904
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2189,7 +2261,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.50807947}
+  m_AnchorMax: {x: 1, y: 0.57842904}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2974,7 +3046,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00012207031}
-  m_SizeDelta: {x: 780, y: 2735.7922}
+  m_SizeDelta: {x: 780, y: 2403.0603}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1267319099
 MonoBehaviour:
@@ -4208,7 +4280,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1457}
+  m_AnchoredPosition: {x: 0, y: -1140.5}
   m_SizeDelta: {x: 780, y: 1197.5319}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1873533933
@@ -10061,7 +10133,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Meerwegplastik
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9bf776c6b83819a448da77ef9e741346, type: 2}
   m_sharedMaterial: {fileID: -1045236801824288541, guid: 9bf776c6b83819a448da77ef9e741346, type: 2}
@@ -10140,14 +10212,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 413738502}
   m_Father: {fileID: 1713869737666223339}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 104, y: -63}
-  m_SizeDelta: {x: 790, y: 110.88373}
+  m_SizeDelta: {x: 790, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1713869738731515935
 GameObject:
@@ -10196,14 +10269,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Viele Wege f\xFChren ins Meer. Nicht nur in S\xFCdostasien gelangt immer
-    wieder Plastikabfall in Gew\xE4sser, durch die er ins offene Meer getragen wird,
-    zu Mikroplastik zerf\xE4llt, absinkt oder sich in gro\xDFen M\xFCllstrudeln sammelt.
-    Auch hier bei uns ist das konkret der Fall. Allein im Rhein befinden sich durchschnitt-lich
-    893.000 Mikroplastikpartikel pro Quadratkilometer. \xDCbrigens: 80 Prozent des
-    Plastikm\xFClls in den Ozeanen entsteht an Land, 20 Prozent auf See.\n\nFinde
-    heraus, was die Hauptquellen der Plastikverschmutzung sind und scanne die Buchseite
-    ab, bis eine horizontale Fl\xE4che sichtbar wird. Tippe darauf, um das Objekt
-    zu platzieren. Um die Fl\xE4che auszublenden, tippe auf das Augen-Symbol."
+    wieder Plastikabfall in Gew\xE4sser, auch hier bei uns ist das konkret der Fall.
+    Allein im Rhein befinden sich durchschnittlich 893.000 Mikroplastikpartikel pro
+    Quadratkilometer. \xDCbrigens: 80 Prozent des Plastikm\xFClls in den Ozeanen
+    entsteht an Land, 20 Prozent auf See.\n\nFinde heraus, was die Hauptquellen der
+    Plastikverschmutzung sind und scanne die Buchseite ab, bis eine horizontale Fl\xE4che
+    sichtbar wird. Tippe darauf, um das Objekt zu platzieren. Nun kannst du die Landschaft
+    erkunden."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
@@ -10289,7 +10361,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -0.000022888184, y: 5}
-  m_SizeDelta: {x: 780, y: 1353.9841}
+  m_SizeDelta: {x: 780, y: 1145.468}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1713869738986192071
 GameObject:

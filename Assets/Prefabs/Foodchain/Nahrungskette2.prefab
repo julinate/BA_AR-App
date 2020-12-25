@@ -480,8 +480,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\nSeev\xF6gel und andere Tiere, die vom oder im Meer Leben, verwechseln
-    Plastik mit Nahrung oder nehmen Mikroplastik indirekt \xFCber ihre Beute auf."
+  m_text: "\n\nSchildkr\xF6ten, Seev\xF6gel und andere Tiere, die vom oder \nim Meer
+    leben, verwechseln Plastik mit Nahrung oder nehmen Mikroplastik indirekt \xFCber
+    ihre Beute auf."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}

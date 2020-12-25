@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &511946862
 GameObject:
@@ -297,102 +297,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6612316217651904824, guid: b9a57d76dd370c24ebb6e06e66bdd5c6, type: 3}
   m_PrefabInstance: {fileID: 1043427051}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &603573418
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 603573422}
-  - component: {fileID: 603573421}
-  - component: {fileID: 603573420}
-  - component: {fileID: 603573419}
-  m_Layer: 0
-  m_Name: Quad
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!64 &603573419
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603573418}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &603573420
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603573418}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f3c62a8eb758ba8469203b35ca0e0f4a, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &603573421
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603573418}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &603573422
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603573418}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.297, y: 0.21, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &642687025
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,6 +713,78 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6612316217651904825, guid: b9a57d76dd370c24ebb6e06e66bdd5c6, type: 3}
   m_PrefabInstance: {fileID: 1043427051}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1112986457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1112986458}
+  - component: {fileID: 1112986460}
+  - component: {fileID: 1112986459}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1112986458
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112986457}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1724622105714568858}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1112986459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112986457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 07f677aa480c59040b3c7d7666aa2ad0, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1112986460
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112986457}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1698828153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1430,8 +1406,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11247835017404300}
   m_HandleRect: {fileID: 11247835017404291}
   m_Direction: 3
-  m_Value: 0.9999997
-  m_Size: 0.6307794
+  m_Value: 0.9999995
+  m_Size: 0.84400547
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1598,7 +1574,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.6307794}
+  m_AnchorMax: {x: 1, y: 0.84400547}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1721,7 +1697,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 780, y: 2203.6228}
+  m_SizeDelta: {x: 780, y: 1646.9087}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &11247835593629631
 MonoBehaviour:
@@ -1828,8 +1804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1372}
-  m_SizeDelta: {x: 780, y: 831.62274}
+  m_AnchoredPosition: {x: 0, y: -966}
+  m_SizeDelta: {x: 780, y: 710.64105}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &11247836065613161
 MonoBehaviour:
@@ -1867,19 +1843,14 @@ MonoBehaviour:
 
     by Anthony Yanez/Sketchfab
 
-    Low Poly Seagull Animated
+    Turtle
 
-    by Jamie
-    McFarlane/Sketchfab
+    by rkhulf/Sketchfab
 
-    Underwater Ambience
+    Underwater
+    Ambience
 
     by Kinoton/Freesound.org
-
-    Seagulls
-
-    by
-    inchadney/Freesound.org
 
 
 '
@@ -2160,7 +2131,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ein guter Fang?
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9bf776c6b83819a448da77ef9e741346, type: 2}
   m_sharedMaterial: {fileID: -1045236801824288541, guid: 9bf776c6b83819a448da77ef9e741346, type: 2}
@@ -2239,14 +2210,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1112986458}
   m_Father: {fileID: 1724622104632361583}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 104, y: -63}
-  m_SizeDelta: {x: 790, y: 110.88373}
+  m_SizeDelta: {x: 790, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1724622105714568859
 GameObject:
@@ -2295,13 +2267,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Je kleiner die Teile werden, in die Plastik zerf\xE4llt, desto leichter
-    k\xF6nnen sie von Organismen aufgenommen werden. Fische fressen durch Mikroplastik
-    belastetes Plankton oder verwechseln Plastik mit ebendiesem. Die Giftstoffe k\xF6nnen
-    sich im Muskelfleisch der Tiere ansammeln, wodurch sie auch in unsere Nahrungskette
-    gelangen. \n\nSchaffst du es einen Fisch zu fangen, der noch kein Plastik gefressen
-    hat? Zeichne dir ein Netz nach der Vorlage weiter unten und scanne die unterlegten
-    Polygone auf der Seite ab.\n\nWichtig: Achte beim Zeichnen auf die genaue Anzahl
-    der Netzmaschen, den ausgef\xFCllten Balken und den Rahmen."
+    k\xF6nnen sie von Organismen aufgenommen werden. Selbst Plankton kann schon durch
+    Mikroplastik belastet sein, wodurch dieses schon auf unterster Ebene in die Nahrungskette
+    eindringt.\n\nDiese Doppelseite verbirgt mehr, wie sie auf den ersten Blick zu
+    bieten hat! Und wenn du zwei zusammengeh\xF6rige Grafiken gleichzeitig abscannst,
+    kann es sein, dass du noch mehr entdeckst..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
@@ -2387,7 +2357,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -0.000022888184, y: 5}
-  m_SizeDelta: {x: 780, y: 1358.4849}
+  m_SizeDelta: {x: 780, y: 955.19116}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1724622105751134787
 GameObject:
@@ -2419,7 +2389,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1809320478183963739
 GameObject:
@@ -2471,7 +2441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ImageManager: {fileID: 511946865}
   m_ImageLibrary: {fileID: 11400000, guid: 302743a51ec605c438a2b8e67d5d4528, type: 2}
-  m_SecondNetPrefab: {fileID: 8390057586765477786, guid: 6fe962563fdd0204fb3b48b2cc1e0a15, type: 3}
+  m_SecondNetPrefab: {fileID: 2692875904239653317, guid: 8d6d25dcc86582040b71644aeeebd843, type: 3}
   m_PlanktonTwo: {fileID: 4757232033262602680, guid: 6bb5d6ad123798843a1523ff64229157, type: 3}
 --- !u!114 &1809320478183963742
 MonoBehaviour:
