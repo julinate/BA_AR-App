@@ -23,7 +23,7 @@ PlayerSettings:
   m_SplashScreenAnimation: 2
   m_SplashScreenLogoStyle: 0
   m_SplashScreenDrawMode: 0
-  m_SplashScreenBackgroundAnimationZoom: 0.4
+  m_SplashScreenBackgroundAnimationZoom: 0.5
   m_SplashScreenLogoAnimationZoom: 0
   m_SplashScreenBackgroundLandscapeAspect: 1
   m_SplashScreenBackgroundPortraitAspect: 1
@@ -129,8 +129,8 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: -3707107728338970439, guid: 41d531bc5846ad944b8bcfe97bfa162f, type: 2}
   - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  - {fileID: -3707107728338970439, guid: 41d531bc5846ad944b8bcfe97bfa162f, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -251,7 +251,7 @@ PlayerSettings:
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
-  androidSplashScreen: {fileID: 2800000, guid: e9e36ba50cafc794a803f4427de93fd1, type: 3}
+  androidSplashScreen: {fileID: 2800000, guid: a065e1a03de08cd4488a9c8a757f6614, type: 3}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
@@ -275,7 +275,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 5e2dbfce0bfeaa843a1fc626be4b2b99, type: 3}
+      m_Icon: {fileID: 2800000, guid: ce237332bc2537548af8a9071eb460a4, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -283,8 +283,8 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - m_Textures:
-      - {fileID: 2800000, guid: 054db20ba3c67e144858ac52ffe110de, type: 3}
-      - {fileID: 2800000, guid: ff86a7613ad1a89459ce7637807e166a, type: 3}
+      - {fileID: 2800000, guid: 16abe0d69529dd34ba9bd07586a4be77, type: 3}
+      - {fileID: 2800000, guid: 8c6446bdfc3bef347b04715ad2b81ef0, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
@@ -315,7 +315,7 @@ PlayerSettings:
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 5e2dbfce0bfeaa843a1fc626be4b2b99, type: 3}
+      - {fileID: 2800000, guid: ce237332bc2537548af8a9071eb460a4, type: 3}
       m_Width: 192
       m_Height: 192
       m_Kind: 1
@@ -351,13 +351,13 @@ PlayerSettings:
       m_Kind: 1
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 5e2dbfce0bfeaa843a1fc626be4b2b99, type: 3}
+      - {fileID: 2800000, guid: ce237332bc2537548af8a9071eb460a4, type: 3}
       m_Width: 192
       m_Height: 192
       m_Kind: 0
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 5e2dbfce0bfeaa843a1fc626be4b2b99, type: 3}
+      - {fileID: 0}
       m_Width: 144
       m_Height: 144
       m_Kind: 0
@@ -679,7 +679,7 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: e9e36ba50cafc794a803f4427de93fd1, type: 3}
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: a065e1a03de08cd4488a9c8a757f6614, type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 0
   spritePackerPolicy: 
