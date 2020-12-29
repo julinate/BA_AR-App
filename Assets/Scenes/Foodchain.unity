@@ -1406,8 +1406,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11247835017404300}
   m_HandleRect: {fileID: 11247835017404291}
   m_Direction: 3
-  m_Value: 0.9999995
-  m_Size: 0.84400547
+  m_Value: 0.9999994
+  m_Size: 0.8727243
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1574,7 +1574,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.84400547}
+  m_AnchorMax: {x: 1, y: 0.8727243}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1697,7 +1697,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 780, y: 1646.9087}
+  m_SizeDelta: {x: 780, y: 1592.7136}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &11247835593629631
 MonoBehaviour:
@@ -1804,8 +1804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -966}
-  m_SizeDelta: {x: 780, y: 710.64105}
+  m_AnchoredPosition: {x: 0, y: -863}
+  m_SizeDelta: {x: 780, y: 684.6097}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &11247836065613161
 MonoBehaviour:
@@ -2267,11 +2267,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Je kleiner die Teile werden, in die Plastik zerf\xE4llt, desto leichter
-    k\xF6nnen sie von Organismen aufgenommen werden. Selbst Plankton kann schon durch
-    Mikroplastik belastet sein, wodurch dieses schon auf unterster Ebene in die Nahrungskette
-    eindringt.\n\nDiese Doppelseite verbirgt mehr, wie sie auf den ersten Blick zu
-    bieten hat! Und wenn du zwei zusammengeh\xF6rige Grafiken gleichzeitig abscannst,
-    kann es sein, dass du noch mehr entdeckst..."
+    k\xF6nnen sie von Organismen aufge-nommen werden. Selbst Plankton kann schon
+    durch Mikroplastik belastet sein, wodurch dieses schon auf unterster Ebene in
+    die Nahrungskette eindringt.\n\nDiese Doppelseite verbirgt mehr, wie nur zwei
+    Grafiken. Ob etwas passiert, wenn du zwei zusam-mengeh\xF6rige Illustrationen
+    gleich-zeitig abscannst?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}

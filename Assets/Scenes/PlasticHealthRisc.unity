@@ -38283,7 +38283,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -0.000022888184, y: 5}
-  m_SizeDelta: {x: 780, y: 1287.6721}
+  m_SizeDelta: {x: 780, y: 1333.6594}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &7149970428974597401
 GameObject:
@@ -38331,18 +38331,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Zwar ist noch weitestgehend unerforscht, wie sich die Aufnahme von Kunststoffen
-    \xFCber die Nahrung auf die Gesundheit auswirkt, dennoch ist bekannt, dass einige
-    Zusatzstoffe - wie Weichmacher - zu den hormonell wirksamen Substanzen geh\xF6ren.
-    Diese Stoffe \xE4hneln in ihrer Struktur den k\xF6rpereigenen Hormonen und werden
-    mit verschiedenen Erkrankungen und St\xF6rungen in Verbindung gebracht.\r\n\r\nSchwenke
-    dein Ger\xE4t \xFCber der Teller-Grafik, bis eine Fl\xE4che visualisiert wird
-    und tippe anschlie\xDFend darauf. W\xE4hle einen der Plastikgegenst\xE4nde im
-    Magen des Fisches aus, um zu erfahren, welche Folgen der Kontakt mit hormonell
+  m_text: "Zwar ist noch weitestgehend uner-forscht, wie sich die Aufnahme   von
+    Kunststoffen \xFCber die Nahrung auf die Gesundheit auswirkt, dennoch ist bekannt,
+    dass einige Zusatzstoffe - wie Weichmacher - zu den hormonell wirksamen Sub-stanzen
+    geh\xF6ren. Diese Stoffe \xE4hneln in ihrer Struktur den k\xF6rper-eigenen Hormonen
+    und werden   mit verschiedenen Erkrankungen und St\xF6rungen in Verbindung gebracht.\r\n\r\nSchwenke
+    dein Ger\xE4t \xFCber der Teller-Grafik, bis eine Fl\xE4che visu-alisiert wird
+    und tippe anschlie\xDFend darauf. W\xE4hle einen der Plastik-gegenst\xE4nde im
+    Magen des Fisch-es aus, um zu erfahren, welche Folgen der Kontakt mit hormonell
     wirksammen Stoffen mit sich bringen kann.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
-  m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 590a279667d75a54fa837b43abad2feb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -10268,14 +10268,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Viele Wege f\xFChren ins Meer. Nicht nur in S\xFCdostasien gelangt immer
-    wieder Plastikabfall in Gew\xE4sser, auch hier bei uns ist das konkret der Fall.
-    Allein im Rhein befinden sich durchschnittlich 893.000 Mikroplastikpartikel pro
-    Quadratkilometer. \xDCbrigens: 80 Prozent des Plastikm\xFClls in den Ozeanen
-    entsteht an Land, 20 Prozent auf See.\n\nFinde heraus, was die Hauptquellen der
-    Plastikverschmutzung sind und scanne die Buchseite ab, bis eine horizontale Fl\xE4che
-    sichtbar wird. Tippe darauf, um das Objekt zu platzieren. Nun kannst du die Landschaft
-    erkunden."
+  m_text: "Viele Wege f\xFChren ins Meer. Nicht nur in S\xFCdostasien gelangt im-  
+    mer wieder Plastikabfall in Gew\xE4s-ser, auch hier bei uns ist das konkret der
+    Fall. Allein im Rhein befinden sich durchschnittlich 893.000 Mikroplastikpartikel
+    pro Quadratkilometer. \xDCbrigens:          80 Prozent des Plastikm\xFClls in   
+    den Ozeanen entsteht an Land,    20 Prozent auf See.\n\nFinde heraus, was die
+    Hauptquellen der Plastikverschmutzung sind   und scanne die Buchseite ab, bis
+    eine horizontale Fl\xE4che sichtbar wird. Tippe darauf, um das Objekt zu platzieren.
+    Nun kannst du die Landschaft erkunden."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}

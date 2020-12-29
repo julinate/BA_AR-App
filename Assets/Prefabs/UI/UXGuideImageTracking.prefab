@@ -215,8 +215,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "F\xFClle den Rahmen mit einer Grafik, um die AR-Erfahrung zu beginnen."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
-  m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 279ad208653fdbf4ba9966530a2ad50c, type: 2}
+  m_sharedMaterial: {fileID: -5622057411978907872, guid: 279ad208653fdbf4ba9966530a2ad50c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
