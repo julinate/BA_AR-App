@@ -2269,9 +2269,9 @@ MonoBehaviour:
   m_text: "Je kleiner die Teile werden, in die Plastik zerf\xE4llt, desto leichter
     k\xF6nnen sie von Organismen aufge-nommen werden. Selbst Plankton kann schon
     durch Mikroplastik belastet sein, wodurch dieses schon auf unterster Ebene in
-    die Nahrungskette eindringt.\n\nDiese Doppelseite verbirgt mehr, wie nur zwei
-    Grafiken. Ob etwas passiert, wenn du zwei zusam-mengeh\xF6rige Illustrationen
-    gleich-zeitig abscannst?"
+    die Nahrungskette eindringt.\n\nAuf dieser Seite verbergen sich mehr wie nur
+    zwei Grafiken. Ob etwas passiert, wenn du ein zu-sammengeh\xF6riges Illustrations-p\xE4rchen
+    gleichzeitig abscannst?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
   m_sharedMaterial: {fileID: -5622057411978907872, guid: 6522a1b17aa83ff49ba05838b6039246, type: 2}
